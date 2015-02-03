@@ -18,9 +18,9 @@
         </div>
         <div class="col connect">
           <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/pages/Jans-on-4th/124479960967926" target="new"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram" ></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://twitter.com/JanCanCook4You"><i class="fa fa-twitter"></i></a></li>
           </ul>
         </div>
         <div class="col contact-info">
