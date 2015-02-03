@@ -4,22 +4,27 @@
     <!-- section -->
     <section>
 
-      <h1><?php the_title(); ?></h1>
+      <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+
+    <section class="hero internal" style="background-image: url('<?php echo $image[0]; ?>');">
+      <h2 class="hero-copy"><?php the_title(); ?></h2>
+    </section>
 
     <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
       <!-- article -->
-      <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-        <?php the_content(); ?>
-
-        <?php comments_template( '', true ); // Remove if you don't want comments ?>
-
-        <br class="clear">
-
-        <?php edit_post_link(); ?>
-
-      </article>
+      <section class="article" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        <aside class="share-tools">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </aside>
+        <article>
+          <?php the_content(); ?>
+        </article>
+      </section>
       <!-- /article -->
 
     <?php endwhile; ?>
@@ -39,7 +44,5 @@
     </section>
     <!-- /section -->
   </main>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
