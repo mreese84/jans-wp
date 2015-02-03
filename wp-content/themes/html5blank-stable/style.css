@@ -884,6 +884,7 @@ header.navigation {
 .content-block {
   text-align: center; }
   .content-block h3 {
+    margin: 0;
     padding: 1em; }
   .content-block p {
     max-width: 75%;
@@ -951,14 +952,19 @@ header.navigation {
       bottom: 75px;
       right: .4em;
       height: 0; } }
-  .quote-scroll div {
+  .quote-scroll div, .quote-scroll span {
     display: block;
-    max-width: 75%;
+    max-width: 90%;
     margin: 0 auto;
-    font-size: 1.8em;
-    padding: 2em 0;
+    font-size: 1.3em;
+    padding: .1em 0;
     text-align: center; }
-    .quote-scroll div:after {
+    .quote-scroll div #quote, .quote-scroll span #quote {
+      padding-top: 1em;
+      padding-bottom: 1em; }
+    .quote-scroll div #quoteauthor, .quote-scroll span #quoteauthor {
+      display: none; }
+    .quote-scroll div:after, .quote-scroll span:after {
       font-family: "Sorts Mill Goudy", serif; }
 
 .photo-feed {
