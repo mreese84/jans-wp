@@ -13,10 +13,6 @@
 
         <?php the_content(); ?>
 
-        <br class="clear">
-
-        <?php edit_post_link(); ?>
-
       </article>
       <!-- /article -->
 
@@ -37,7 +33,5 @@
     </section>
     <!-- /section -->
   </main>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
