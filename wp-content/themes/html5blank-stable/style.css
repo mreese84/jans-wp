@@ -867,7 +867,8 @@ header.navigation {
   padding: 0 1.618em; }
   .hero .hero-copy {
     padding: 5em 0 4em 0;
-    color: #fff; }
+    color: #fff;
+    width: 50%; }
     .hero .hero-copy h2 {
       font-size: 1.6em;
       margin-bottom: 0.5em; }
