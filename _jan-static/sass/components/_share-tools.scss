@@ -1,0 +1,44 @@
+.share-tools {
+
+  &:after {
+    position: relative;
+  }
+
+  ul {
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+    float: right;
+  }
+
+  li {
+    margin: 1em;
+
+    a, a:visited {
+      color: $olive-green;
+
+      &:hover {
+        color: #fff;
+
+        i {
+          background: $olive-green;
+        }
+      }
+    }
+
+    i {
+      height: 50px;
+      width: 50px;
+      padding: 1em 1.1em;
+      display: inline-block;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      border: 1px solid $olive-green;
+
+      &.fa-facebook {
+        padding: 1em 1.25em;
+      }
+    }
+  }
+}

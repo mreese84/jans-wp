@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
+
+.quote-scroll {
+  color: #fff;
+  //background: $olive-green url(../img/open-quote.png) no-repeat;
+  //background-position: 10% 10%;
+  position: relative;
+  z-index: -1;
+
+  @include not-phone {
+    &:before {
+      float: left;
+      font-family: "Sorts Mill Goudy", serif;
+      font-size: 20em;
+      line-height: .8em;
+      @include transform(scale(-1, 1));
+      opacity: .25;
+      content: open-quote;
+      position: relative;
+      top: .2em;
+      left: .3em;
+      height: 0;
+    }
+
+    &:after {
+      float: right;
+      font-family: "Sorts Mill Goudy", serif;
+      font-size: 20em;
+      line-height: .8em;
+      opacity: .25;
+      content: close-quote;
+      position: relative;
+      bottom: 75px;
+      right: .4em;
+      height: 0;
+    }
+  }
+
+  div {
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 1.8em;
+    padding: 2em 0;
+    text-align: center;
+    //background: url(../img/close-quote.png) no-repeat;
+    //background-position: 110% 110%;
+
+    &:after {
+      font-family: "Sorts Mill Goudy", serif;
+    }
+  }
+}

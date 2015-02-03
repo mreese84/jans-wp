@@ -1,0 +1,16 @@
+$default-black: rgb(50,50,50);
+$olive-green: rgb(170,183,157);
+$light-green: lighten($olive-green,30);
+$red: rgb(190,119,115);
+
+.olive-green {
+  background-color: $olive-green;
+}
+
+.light-green {
+  background-color: $light-green;
+}
+
+.red {
+  background-color: $red;
+}

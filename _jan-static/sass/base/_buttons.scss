@@ -1,0 +1,22 @@
+button,
+input[type="submit"] {
+  @extend %button;
+  @include appearance(none);
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn {
+  padding: .5em 1em;
+  background-color: #fff;
+  color: $default-black;
+  border-radius: .3em;
+  margin: .5em 0;
+
+  &:hover {
+    opacity: .8;
+  }
+}

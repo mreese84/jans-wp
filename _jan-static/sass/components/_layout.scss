@@ -1,0 +1,20 @@
+//Three column layout. Columns are equal width with a gutter in between.
+.col-3 {
+
+   .col {
+    @include span-columns(4);
+  }
+}
+
+//Two column layout. Sidebar for social/share links and 2 columns of white space.
+.article {
+  @include outer-container(90%);
+
+  aside {
+    @include span-columns(2);
+  }
+
+  article {
+    @include span-columns(8);
+  }
+}

@@ -1,0 +1,142 @@
+.services {
+  border: .3em solid $red;
+  border-width: .3em 0;
+}
+
+.photo-feed {
+  border: .3em solid #fff;
+  border-width: .3em 0;
+}
+
+.article {
+  padding: 1em 0;
+}
+
+.article-container {
+  border: .3em solid $red;
+  border-width: .3em 0;
+}
+
+footer {
+  padding: 2em $gutter;
+  background: $olive-green;
+  height: 14em;
+
+  form {
+    margin-bottom: 1em;
+
+    input.footer-email {
+      width: 75%;
+      float: left;
+    }
+
+    input.fa {
+      font-family: FontAwesome;
+      background-color: $olive-green;
+      color: #fff;
+      border: 1px solid #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: $olive-green;
+      }
+    }
+  }
+
+  .footer-resources {
+
+    button {
+      margin: 0 .4em;
+      padding: .55em;
+      border-radius: $base-border-radius;
+      color: $olive-green;
+
+      &:hover {
+        background: #fff;
+      }
+    }
+
+    @include phone {
+
+      button {
+        display: none;
+      }
+    }
+  }
+
+  .connect {
+    //text-align: center;
+
+    ul {
+      margin: 0 auto;
+      max-width: 90%;
+      text-align: center;
+    }
+
+    li {
+      display: inline;
+      margin: 1em;
+
+      a, a:visited {
+        color: #fff;
+
+        &:hover {
+          color: $olive-green;
+
+          i {
+            background: #fff;
+          }
+        }
+      }
+
+      i {
+        height: 50px;
+        width: 50px;
+        padding: 1em 1.1em;
+        display: inline-block;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid #fff;
+
+        &.fa-facebook {
+          padding: 1em 1.25em;
+        }
+      }
+
+      @include tablet {
+        display: block;
+        margin: .3em;
+      }
+
+      @include phone {
+        display: block;
+        margin: .3em;
+      }
+    }
+  }
+
+  dl {
+    //text-align: right;
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.2em;
+
+    a, a:visited {
+      color: #fff;
+    }
+
+    @include phone {
+      font-size: .8em;
+    }
+  }
+
+  a:not.footer-resources, a:visited:not.footer-resources {
+    color: #fff;
+    font-size: 1.2em;
+
+    &:hover:not.footer-resources {
+      opacity: .8;
+    }
+  }
+}

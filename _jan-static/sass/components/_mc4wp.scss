@@ -1,0 +1,23 @@
+#mc4wp-form-1 {
+  margin: 0;
+
+  .footer-email {
+    float: left;
+    width: 75%;
+    margin-right: .2em;
+    vertical-align: middle;
+  }
+
+  .fa {
+    vertical-align: middle;
+    padding: .625em;
+
+    &:after {
+      clear: both;
+    }
+  }
+
+  @include phone {
+    display: none;
+  }
+}

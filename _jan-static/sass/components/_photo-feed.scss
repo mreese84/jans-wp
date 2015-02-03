@@ -1,0 +1,30 @@
+
+
+.photo-feed {
+  //background: url(../img/instagram-placeholder.jpg) center no-repeat;
+  //background-size: cover;
+  text-align: center;
+  position: relative;
+  //clear: both;
+
+  .feed-hash {
+    position: absolute;
+    margin-left: -4.6em;
+    margin-top: 7.3em;
+    color: #fff;
+    padding: .1em 2em;
+    background-color: $olive-green;
+    border: #fff solid .1em;
+    border-radius: .4em;
+    font-size: 1.8em;
+    display: inline-block;
+    z-index: 999999999;
+
+    @include phone {
+      display: none;
+    }
+  }
+
+  .instagram-feed {
+  }
+}
