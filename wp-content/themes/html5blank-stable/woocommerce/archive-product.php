@@ -34,7 +34,8 @@ get_header( 'shop' ); ?>
 
     <?php endif; ?>
 
-    <?php do_action( 'woocommerce_archive_description' ); ?>
+    <section class="gutter">
+      <?php do_action( 'woocommerce_archive_description' ); ?>
 
     <?php if ( have_posts() ) : ?>
 
@@ -83,6 +84,7 @@ get_header( 'shop' ); ?>
      */
     do_action( 'woocommerce_after_main_content' );
   ?>
+  </section>
 
   <?php
     /**

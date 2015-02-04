@@ -1,0 +1,17 @@
+.gutter {
+  @include outer-container();
+}
+
+.page-description {
+  margin-top: 1em;
+}
+
+.products {
+
+  .product {
+
+    img {
+      display: none;
+    }
+  }
+}
