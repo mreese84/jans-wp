@@ -4,8 +4,7 @@
     <!-- section -->
     <section>
 
-      <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-
+    <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
     <section class="hero internal" style="background-image: url('<?php echo $image[0]; ?>');">
       <h2 class="hero-copy"><?php the_title(); ?></h2>
     </section>
