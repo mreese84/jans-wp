@@ -7,7 +7,7 @@
 }
 
 //Two column layout. Sidebar for social/share links and 2 columns of white space.
-.article {
+.article, .col-2 {
   @include outer-container(90%);
 
   aside {

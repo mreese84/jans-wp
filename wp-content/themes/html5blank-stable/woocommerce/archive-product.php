@@ -34,47 +34,61 @@ get_header( 'shop' ); ?>
 
     <?php endif; ?>
 
-    <section class="gutter">
-      <?php do_action( 'woocommerce_archive_description' ); ?>
+    <section class="article gutter">
 
-    <?php if ( have_posts() ) : ?>
+      <article>
+        <?php do_action( 'woocommerce_archive_description' ); ?>
 
-      <?php
-        /**
-         * woocommerce_before_shop_loop hook
-         *
-         * @hooked woocommerce_result_count - 20
-         * @hooked woocommerce_catalog_ordering - 30
-         */
-        do_action( 'woocommerce_before_shop_loop' );
-      ?>
+        <?php if ( have_posts() ) : ?>
 
-      <?php woocommerce_product_loop_start(); ?>
+        <?php
+          /**
+           * woocommerce_before_shop_loop hook
+           *
+           * @hooked woocommerce_result_count - 20
+           * @hooked woocommerce_catalog_ordering - 30
+           */
+          do_action( 'woocommerce_before_shop_loop' );
+        ?>
 
-        <?php woocommerce_product_subcategories(); ?>
+        <?php woocommerce_product_loop_start(); ?>
 
-        <?php while ( have_posts() ) : the_post(); ?>
+          <?php woocommerce_product_subcategories(); ?>
 
-          <?php wc_get_template_part( 'content', 'product' ); ?>
+          <?php while ( have_posts() ) : the_post(); ?>
 
-        <?php endwhile; // end of the loop. ?>
+            <?php wc_get_template_part( 'content', 'product' ); ?>
 
-      <?php woocommerce_product_loop_end(); ?>
+          <?php endwhile; // end of the loop. ?>
 
-      <?php
-        /**
-         * woocommerce_after_shop_loop hook
-         *
-         * @hooked woocommerce_pagination - 10
-         */
-        do_action( 'woocommerce_after_shop_loop' );
-      ?>
+        <?php woocommerce_product_loop_end(); ?>
 
-    <?php elseif ( ! woocommerce_product_subcategories( array( 'before' => woocommerce_product_loop_start( false ), 'after' => woocommerce_product_loop_end( false ) ) ) ) : ?>
+        <?php
+          /**
+           * woocommerce_after_shop_loop hook
+           *
+           * @hooked woocommerce_pagination - 10
+           */
+          do_action( 'woocommerce_after_shop_loop' );
+        ?>
 
-      <?php wc_get_template( 'loop/no-products-found.php' ); ?>
+        <?php elseif ( ! woocommerce_product_subcategories( array( 'before' => woocommerce_product_loop_start( false ), 'after' => woocommerce_product_loop_end( false ) ) ) ) : ?>
 
-    <?php endif; ?>
+          <?php wc_get_template( 'loop/no-products-found.php' ); ?>
+
+        <?php endif; ?>
+      </article>
+      <aside>
+        <?php
+          /**
+           * woocommerce_sidebar hook
+           *
+           * @hooked woocommerce_get_sidebar - 10
+           */
+           do_action( 'woocommerce_sidebar' );
+        ?>
+      </aside>
+    </section>
 
   <?php
     /**
@@ -85,14 +99,5 @@ get_header( 'shop' ); ?>
     do_action( 'woocommerce_after_main_content' );
   ?>
   </section>
-
-  <?php
-    /**
-     * woocommerce_sidebar hook
-     *
-     * @hooked woocommerce_get_sidebar - 10
-     */
-    //do_action( 'woocommerce_sidebar' );
-  ?>
 
 <?php get_footer( 'shop' ); ?>
