@@ -1060,6 +1060,29 @@ header.navigation {
     .article article:last-child {
       margin-right: 0; }
 
+.col-2 {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .col-2::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .col-2 article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .col-2 article:last-child {
+      margin-right: 0; }
+  .col-2 aside {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .col-2 aside:last-child {
+      margin-right: 0; }
+
 .services {
   border: 0.3em solid #be7773;
   border-width: .3em 0; }
@@ -1070,6 +1093,21 @@ header.navigation {
 
 .article {
   padding: 1em 0; }
+
+.col-2 {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.sidebar-widget h3 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #989898;
+  text-transform: uppercase;
+  font-size: .8em;
+  padding: .5em .8em;
+  background-color: #f7f8f5;
+  border-bottom: 1px solid #dde2d8; }
+.sidebar-widget a {
+  font-size: .8em; }
 
 .article-container {
   border: 0.3em solid #be7773;
@@ -1161,7 +1199,37 @@ footer {
 .page-description {
   margin-top: 1em; }
 
+.products .product a img {
+  padding: 5px;
+  border: 1px solid #d8d8d8; }
+.products .product a .price {
+  margin: 0; }
+.products .product .add_to_cart_button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: .2em 0; }
+  .products .product .add_to_cart_button:before {
+    font-family: FontAwesome;
+    content: '\f217';
+    padding-right: .5em; }
+  .products .product .add_to_cart_button:hover {
+    background: none;
+    opacity: .8; }
+.products .product .added {
+  display: none; }
+.products .product h3 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 .products .product img {
   display: none; }
+
+.woo-product {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+.woocommerce ul.product_list_widget li {
+  padding: .2em .3em; }
+  .woocommerce ul.product_list_widget li:hover {
+    box-shadow: -0.2em 0 0 0 #dde2d8; }
 
 /*# sourceMappingURL=style.css.map */

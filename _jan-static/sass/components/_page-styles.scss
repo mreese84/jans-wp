@@ -12,6 +12,27 @@
   padding: 1em 0;
 }
 
+.col-2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.sidebar-widget {
+  h3 {
+    font-family: $sans-serif;
+    color: lighten($default-black,40%);
+    text-transform: uppercase;
+    font-size: .8em;
+    padding: .5em .8em;
+    background-color: $light-green;
+    border-bottom: 1px solid darken($light-green,10%);
+  }
+
+  a {
+    font-size: .8em;
+  }
+}
+
 .article-container {
   border: .3em solid $red;
   border-width: .3em 0;

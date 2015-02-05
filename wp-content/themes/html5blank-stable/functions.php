@@ -25,6 +25,16 @@ if (function_exists('add_theme_support'))
     // Add Menu Support
     add_theme_support('menus');
 
+    //Hide default sorting drop-down from WooCommerce
+    remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+
+    //Add to cart button text
+    add_filter( 'woocommerce_product_add_to_cart_text', 'woo_archive_custom_cart_button_text' );    // 2.1 +
+
+    function woo_archive_custom_cart_button_text() {
+      return __( 'Add to cart', 'woocommerce' );
+      }
+
     // Add Thumbnail Theme Support
     add_theme_support('post-thumbnails');
     add_image_size('large', 700, '', true); // Large Thumbnail

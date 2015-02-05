@@ -34,7 +34,7 @@ get_header( 'shop' ); ?>
 
     <?php endif; ?>
 
-    <section class="article gutter">
+    <section class="col-2 woo-product">
 
       <article>
         <?php do_action( 'woocommerce_archive_description' ); ?>
@@ -78,7 +78,7 @@ get_header( 'shop' ); ?>
 
         <?php endif; ?>
       </article>
-      <aside>
+
         <?php
           /**
            * woocommerce_sidebar hook
@@ -87,7 +87,7 @@ get_header( 'shop' ); ?>
            */
            do_action( 'woocommerce_sidebar' );
         ?>
-      </aside>
+
     </section>
 
   <?php

@@ -7,7 +7,7 @@
 }
 
 //Two column layout. Sidebar for social/share links and 2 columns of white space.
-.article, .col-2 {
+.article {
   @include outer-container(90%);
 
   aside {
@@ -16,5 +16,19 @@
 
   article {
     @include span-columns(8);
+  }
+}
+
+//Two column layout. Bigger sidebar for widgets and such.
+.col-2 {
+  @include outer-container();
+
+  article {
+    @include span-columns(9);
+  }
+
+  aside {
+    @include span-columns(3);
+
   }
 }
