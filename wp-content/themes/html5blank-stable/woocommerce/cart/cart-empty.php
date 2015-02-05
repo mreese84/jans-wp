@@ -13,7 +13,7 @@ wc_print_notices();
 
 ?>
 
-<p class="cart-empty"><?php _e( 'Nothing is in your cart.', 'woocommerce' ) ?></p>
+<p class="cart-empty"><?php _e( 'Uh oh, your cart is empty.', 'woocommerce' ) ?></p>
 
 <?php do_action( 'woocommerce_cart_is_empty' ); ?>
 
