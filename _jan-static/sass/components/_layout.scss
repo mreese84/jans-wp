@@ -21,7 +21,7 @@
 
 //Two column layout. Bigger sidebar for widgets and such.
 .col-2 {
-  @include outer-container();
+  @include outer-container(90%);
 
   article {
     @include span-columns(9);

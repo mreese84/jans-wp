@@ -20,6 +20,7 @@
     padding: 5em 0 4em 0;
     color: $hero-color;
     width: 50%;
+    margin: 0 auto;
 
     h2 {
       font-size: 1.6em;
@@ -38,4 +39,11 @@
       text-align: center;
     }
   }
+}
+
+.hero-solid {
+  color: #fff;
+  background-color: $red;
+  padding: 4.5em 0 1em 5%;
+  border-bottom: .3em solid darken($light-green,10%);
 }
