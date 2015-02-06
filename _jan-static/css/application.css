@@ -769,7 +769,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
         header.navigation ul.sub-menu li {
-          line-height: 46.15385px; }
+          line-height: 46.1538461538px; }
           header.navigation ul.sub-menu li:first-child > a {
             border-radius: 0;
             border-top-right-radius: 0; }
@@ -860,16 +860,16 @@ header.navigation {
           display: block; } }
 
 .hero {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
-  background-color: #324766;
+  background-color: #aab79d;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 1.618em; }
   .hero .hero-copy {
     padding: 5em 0 4em 0;
-    color: #fff; }
+    color: #fff;
+    width: 50%;
+    margin: 0 auto; }
     .hero .hero-copy h2 {
       font-size: 1.6em;
       margin-bottom: 0.5em; }
@@ -882,9 +882,16 @@ header.navigation {
       padding: 4em 0 2em;
       text-align: center; }
 
+.hero-solid {
+  color: #fff;
+  background-color: #be7773;
+  padding: 4.5em 0 1em 5%;
+  border-bottom: 0.3em solid #dde2d8; }
+
 .content-block {
   text-align: center; }
   .content-block h3 {
+    margin: 0;
     padding: 1em; }
   .content-block p {
     max-width: 75%;
@@ -952,14 +959,19 @@ header.navigation {
       bottom: 75px;
       right: .4em;
       height: 0; } }
-  .quote-scroll div {
+  .quote-scroll div, .quote-scroll span {
     display: block;
-    max-width: 75%;
+    max-width: 90%;
     margin: 0 auto;
-    font-size: 1.8em;
-    padding: 2em 0;
+    font-size: 1.3em;
+    padding: .1em 0;
     text-align: center; }
-    .quote-scroll div:after {
+    .quote-scroll div #quote, .quote-scroll span #quote {
+      padding-top: 1em;
+      padding-bottom: 1em; }
+    .quote-scroll div #quoteauthor, .quote-scroll span #quoteauthor {
+      display: none; }
+    .quote-scroll div:after, .quote-scroll span:after {
       font-family: "Sorts Mill Goudy", serif; }
 
 .photo-feed {
@@ -1027,8 +1039,8 @@ header.navigation {
 .col-3 .col {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%; }
   .col-3 .col:last-child {
     margin-right: 0; }
 
@@ -1043,16 +1055,39 @@ header.navigation {
   .article aside {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%; }
+    margin-right: 2.3576515979%;
+    width: 14.7019570017%; }
     .article aside:last-child {
       margin-right: 0; }
   .article article {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
+    margin-right: 2.3576515979%;
+    width: 65.8807828007%; }
     .article article:last-child {
+      margin-right: 0; }
+
+.col-2 {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .col-2::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .col-2 article {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 74.4105871005%; }
+    .col-2 article:last-child {
+      margin-right: 0; }
+  .col-2 aside {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    .col-2 aside:last-child {
       margin-right: 0; }
 
 .services {
@@ -1065,6 +1100,21 @@ header.navigation {
 
 .article {
   padding: 1em 0; }
+
+.col-2 {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.sidebar-widget h3 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #989898;
+  text-transform: uppercase;
+  font-size: .8em;
+  padding: .5em .8em;
+  background-color: #f7f8f5;
+  border-bottom: 1px solid #dde2d8; }
+.sidebar-widget a {
+  font-size: .8em; }
 
 .article-container {
   border: 0.3em solid #be7773;
@@ -1144,4 +1194,50 @@ footer {
     footer a:not.footer-resources:hover:not.footer-resources, footer a:visited:not.footer-resources:hover:not.footer-resources {
       opacity: .8; }
 
-/*# sourceMappingURL=application.css.map */
+.gutter {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .gutter::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.page-description {
+  margin-top: 1em; }
+
+.single-product .col-2 {
+  padding-top: 3em; }
+
+.products .product a img {
+  padding: 5px;
+  border: 1px solid #d8d8d8; }
+.products .product a .price {
+  margin: 0; }
+.products .product .add_to_cart_button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: .2em 0; }
+  .products .product .add_to_cart_button:before {
+    font-family: FontAwesome;
+    content: '\f217';
+    padding-right: .5em; }
+  .products .product .add_to_cart_button:hover {
+    background: none;
+    opacity: .8; }
+.products .product .added {
+  display: none; }
+.products .product h3 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+.products .product img {
+  display: none; }
+
+.woo-product {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+.woocommerce ul.product_list_widget li {
+  padding: .2em .3em; }
+  .woocommerce ul.product_list_widget li:hover {
+    box-shadow: -0.2em 0 0 0 #dde2d8; }

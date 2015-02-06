@@ -98,10 +98,11 @@ p.demo_store {
     border-top:3px solid darken(@light-green,10%);
   }
   .woocommerce-info {
-    border-top:3px solid #1e85be;
+    border-top:3px solid @olive-green;
   }
   .woocommerce-error {
     border-top:3px solid @red;
+    background:lighten(@red,35);
   }
 
   small.note {
@@ -260,6 +261,7 @@ p.demo_store {
         }
       }
       .panel {
+        font-family: @sans-serif;
         margin: 0 0 2em;
         padding: 0;
       }

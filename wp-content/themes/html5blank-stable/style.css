@@ -769,7 +769,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
         header.navigation ul.sub-menu li {
-          line-height: 46.15385px; }
+          line-height: 46.1538461538px; }
           header.navigation ul.sub-menu li:first-child > a {
             border-radius: 0;
             border-top-right-radius: 0; }
@@ -868,8 +868,7 @@ header.navigation {
   .hero .hero-copy {
     padding: 5em 0 4em 0;
     color: #fff;
-    width: 50%;
-    margin: 0 auto; }
+    width: 50%; }
     .hero .hero-copy h2 {
       font-size: 1.6em;
       margin-bottom: 0.5em; }
@@ -880,11 +879,12 @@ header.navigation {
     border-bottom: 0.3em solid #be7773; }
     .hero.internal .hero-copy {
       padding: 4em 0 2em;
-      text-align: center; }
+      text-align: center;
+      margin: 0 auto; }
 
 .hero-solid {
-  color: #fff;
-  background-color: #be7773;
+  color: #585858;
+  background-color: #f7f8f5;
   padding: 4.5em 0 1em 5%;
   border-bottom: 0.3em solid #dde2d8; }
 
@@ -1039,8 +1039,8 @@ header.navigation {
 .col-3 .col {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%; }
   .col-3 .col:last-child {
     margin-right: 0; }
 
@@ -1055,15 +1055,15 @@ header.navigation {
   .article aside {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%; }
+    margin-right: 2.3576515979%;
+    width: 14.7019570017%; }
     .article aside:last-child {
       margin-right: 0; }
   .article article {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
+    margin-right: 2.3576515979%;
+    width: 65.8807828007%; }
     .article article:last-child {
       margin-right: 0; }
 
@@ -1078,15 +1078,15 @@ header.navigation {
   .col-2 article {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%; }
+    margin-right: 2.3576515979%;
+    width: 74.4105871005%; }
     .col-2 article:last-child {
       margin-right: 0; }
   .col-2 aside {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
     .col-2 aside:last-child {
       margin-right: 0; }
 
@@ -1206,6 +1206,9 @@ footer {
 .page-description {
   margin-top: 1em; }
 
+.single-product .woocommerce-breadcrumb {
+  padding-top: 3em; }
+
 .products .product a img {
   padding: 5px;
   border: 1px solid #d8d8d8; }
@@ -1238,5 +1241,3 @@ footer {
   padding: .2em .3em; }
   .woocommerce ul.product_list_widget li:hover {
     box-shadow: -0.2em 0 0 0 #dde2d8; }
-
-/*# sourceMappingURL=style.css.map */

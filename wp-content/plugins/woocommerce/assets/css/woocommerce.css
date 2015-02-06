@@ -182,11 +182,12 @@ p.demo_store {
 }
 .woocommerce .woocommerce-info,
 .woocommerce-page .woocommerce-info {
-  border-top: 3px solid #1e85be;
+  border-top: 3px solid #aab79d;
 }
 .woocommerce .woocommerce-error,
 .woocommerce-page .woocommerce-error {
   border-top: 3px solid #be7773;
+  background: #f7eded;
 }
 .woocommerce small.note,
 .woocommerce-page small.note {
@@ -436,6 +437,7 @@ p.demo_store {
 .woocommerce-page div.product .woocommerce-tabs .panel,
 .woocommerce #content div.product .woocommerce-tabs .panel,
 .woocommerce-page #content div.product .woocommerce-tabs .panel {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin: 0 0 2em;
   padding: 0;
 }

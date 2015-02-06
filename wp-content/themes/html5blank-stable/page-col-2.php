@@ -12,7 +12,7 @@
 
       <!-- article -->
       <section class="col-2" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-        <article class="the-content">
+        <article>
           <?php the_content(); ?>
         </article>
         <?php
