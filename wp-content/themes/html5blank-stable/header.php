@@ -47,7 +47,7 @@
               <?php html5blank_nav(); ?>
             </nav>
 
-            <!-- nav search -->
+            <!-- nav search
             <div class="navigation-tools">
               <div class="search-bar">
                 <form role="search">
@@ -58,7 +58,7 @@
                 </form>
               </div>
             </div>
-            <!-- /nav search -->
+              /nav search -->
             <!-- /nav -->
           </div>
 
