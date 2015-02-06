@@ -1,0 +1,17 @@
+img {
+  padding: 5px;
+  margin: .5em;
+  border: 1px solid lighten($default-black,65%);
+}
+
+.alignright {
+  float: right;
+  margin-left: 1em;
+  margin-right: 0;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 1em;
+  margin-left: 0;
+}

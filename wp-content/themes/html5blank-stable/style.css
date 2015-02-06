@@ -626,6 +626,21 @@ html {
 h1 {
   color: #aab79d; }
 
+img {
+  padding: 5px;
+  margin: .5em;
+  border: 1px solid #d8d8d8; }
+
+.alignright {
+  float: right;
+  margin-left: 1em;
+  margin-right: 0; }
+
+.alignleft {
+  float: left;
+  margin-right: 1em;
+  margin-left: 0; }
+
 header.navigation {
   background-color: rgba(170, 183, 157, 0.9);
   border-bottom: 1px solid rgba(145, 161, 128, 0.9);
