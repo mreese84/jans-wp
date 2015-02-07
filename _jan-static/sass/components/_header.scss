@@ -286,7 +286,6 @@ header.navigation {
   }
 
   .sign-up {
-    //@include button(flat, $base-accent-color);
     display: inline;
     float: right;
     font-size: 0.8em;
@@ -328,7 +327,6 @@ header.navigation {
       }
 
       button[type=submit] {
-        //@include button(flat, $navigation-search-background);
         bottom: 0.3em;
         left: auto;
         outline: none;

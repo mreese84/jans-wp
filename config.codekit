@@ -1717,6 +1717,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_jan-static\/sass\/components\/_tribe-cal.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_jan-static\/sass\/components\/_tribe-cal.scss",
+		"outputAbbreviatedPath": "\/_jan-static\/sass\/css\/_tribe-cal.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_jan-static\/sass\/components\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -18931,11 +18947,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/html5blank-stable\/page-full-width.php": {
+	"\/wp-content\/themes\/html5blank-stable\/page-event.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/html5blank-stable\/page-full-width.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/html5blank-stable\/page-event.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
