@@ -12,4 +12,4 @@ wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/plugins/wordpress-move/backup/
 .sass-cache
-config.codekit
+*.codekit

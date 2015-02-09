@@ -27,6 +27,17 @@
     }
   }
 
-  .photo-feed {
+  .sbi_load_btn {
+    font-size: .9em;
+    font-family: $sans-serif;
+    opacity: .7;
+    font-weight: 500;
+
+    &:after {
+      font-family: FontAwesome;
+      content: '\f021';
+      padding-left: .4em;
+      font-weight: normal;
+    }
   }
 }

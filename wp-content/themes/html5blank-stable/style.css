@@ -962,7 +962,7 @@ header.navigation {
       opacity: .2;
       content: open-quote;
       position: relative;
-      top: .2em;
+      top: .1em;
       left: .3em;
       height: 0; }
     .quote-scroll:after {
@@ -1015,6 +1015,16 @@ header.navigation {
     @media (max-width: 767px) {
       .photo-feed .feed-hash {
         display: none; } }
+  .photo-feed .sbi_load_btn {
+    font-size: .9em;
+    font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    opacity: .7;
+    font-weight: 500; }
+    .photo-feed .sbi_load_btn:after {
+      font-family: FontAwesome;
+      content: '\f021';
+      padding-left: .4em;
+      font-weight: normal; }
 
 .share-tools:after {
   position: relative; }
