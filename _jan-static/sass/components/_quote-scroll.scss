@@ -1,20 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
 
 .quote-scroll {
-  color: #fff;
-  //background: $olive-green url(../img/open-quote.png) no-repeat;
-  //background-position: 10% 10%;
+  color: $default-black;
   position: relative;
   z-index: -1;
+  border: 3px solid $red;
+  border-width: 3px 0;
+  background-color: darken($light-green,3%);
 
   @include not-phone {
     &:before {
+      color: $olive-green;
       float: left;
       font-family: "Sorts Mill Goudy", serif;
       font-size: 20em;
       line-height: .8em;
       @include transform(scale(-1, 1));
-      opacity: .25;
+      opacity: .2;
       content: open-quote;
       position: relative;
       top: .2em;
@@ -23,11 +25,12 @@
     }
 
     &:after {
+      color: $olive-green;
       float: right;
       font-family: "Sorts Mill Goudy", serif;
       font-size: 20em;
       line-height: .8em;
-      opacity: .25;
+      opacity: .2;
       content: close-quote;
       position: relative;
       bottom: 75px;
@@ -40,7 +43,7 @@
     display: block;
     max-width: 90%;
     margin: 0 auto;
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: .1em 0;
     text-align: center;
     //background: url(../img/close-quote.png) no-repeat;

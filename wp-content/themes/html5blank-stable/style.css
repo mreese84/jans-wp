@@ -941,11 +941,15 @@ header.navigation {
           color: #323232; } }
 
 .quote-scroll {
-  color: #fff;
+  color: #323232;
   position: relative;
-  z-index: -1; }
+  z-index: -1;
+  border: 3px solid #be7773;
+  border-width: 3px 0;
+  background-color: #eff1ec; }
   @media (min-width: 768px) {
     .quote-scroll:before {
+      color: #aab79d;
       float: left;
       font-family: "Sorts Mill Goudy", serif;
       font-size: 20em;
@@ -955,18 +959,19 @@ header.navigation {
       -ms-transform: scale(-1, 1);
       -o-transform: scale(-1, 1);
       transform: scale(-1, 1);
-      opacity: .25;
+      opacity: .2;
       content: open-quote;
       position: relative;
       top: .2em;
       left: .3em;
       height: 0; }
     .quote-scroll:after {
+      color: #aab79d;
       float: right;
       font-family: "Sorts Mill Goudy", serif;
       font-size: 20em;
       line-height: .8em;
-      opacity: .25;
+      opacity: .2;
       content: close-quote;
       position: relative;
       bottom: 75px;
@@ -976,7 +981,7 @@ header.navigation {
     display: block;
     max-width: 90%;
     margin: 0 auto;
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: .1em 0;
     text-align: center; }
     .quote-scroll div #quote, .quote-scroll span #quote {
@@ -989,7 +994,12 @@ header.navigation {
 
 .photo-feed {
   text-align: center;
-  position: relative; }
+  position: relative;
+  margin: 0;
+  color: #fff;
+  background-color: #be7773;
+  font-size: 1.2em;
+  font-weight: 300; }
   .photo-feed .feed-hash {
     position: absolute;
     margin-left: -4.6em;
@@ -1016,11 +1026,11 @@ header.navigation {
 .share-tools li {
   margin: 1em; }
   .share-tools li a, .share-tools li a:visited {
-    color: #aab79d; }
+    color: #be7773; }
     .share-tools li a:hover, .share-tools li a:visited:hover {
       color: #fff; }
       .share-tools li a:hover i, .share-tools li a:visited:hover i {
-        background: #aab79d; }
+        background: #be7773; }
   .share-tools li i {
     height: 50px;
     width: 50px;
@@ -1029,7 +1039,7 @@ header.navigation {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: 1px solid #aab79d; }
+    border: 1px solid #be7773; }
     .share-tools li i.fa-facebook {
       padding: 1em 1.25em; }
 
@@ -1143,11 +1153,20 @@ header.navigation {
 
 .services {
   border: 0.3em solid #be7773;
-  border-width: .3em 0; }
-
-.photo-feed {
-  border: .3em solid #fff;
-  border-width: .3em 0; }
+  border-width: 0 0 .3em 0;
+  background: #fff; }
+  .services .content-block {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+    padding: 3em 0 1em 0; }
+    .services .content-block::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .services .content-block p {
+      margin-bottom: 2em; }
 
 .article {
   padding: 1em 0; }

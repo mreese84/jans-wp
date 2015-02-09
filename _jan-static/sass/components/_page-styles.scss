@@ -1,11 +1,22 @@
 .services {
   border: .3em solid $red;
-  border-width: .3em 0;
+  border-width: 0 0 .3em 0;
+  background: #fff;
+
+  .content-block {
+    @include outer-container(90%);
+    font-size: 1.1em;
+    padding: 3em 0 1em 0;
+
+    p {
+      margin-bottom: 2em;
+    }
+  }
 }
 
 .photo-feed {
-  border: .3em solid #fff;
-  border-width: .3em 0;
+  //border: .3em solid #fff;
+  //border-width: .3em 0;
 }
 
 .article {

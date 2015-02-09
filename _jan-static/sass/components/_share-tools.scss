@@ -15,13 +15,13 @@
     margin: 1em;
 
     a, a:visited {
-      color: $olive-green;
+      color: $red;
 
       &:hover {
         color: #fff;
 
         i {
-          background: $olive-green;
+          background: $red;
         }
       }
     }
@@ -34,7 +34,7 @@
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
       border-radius: 50%;
-      border: 1px solid $olive-green;
+      border: 1px solid $red;
 
       &.fa-facebook {
         padding: 1em 1.25em;
