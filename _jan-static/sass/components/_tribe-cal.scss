@@ -29,7 +29,7 @@
 }
 
 .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a, #tribe-events-content .tribe-events-tooltip h4 {
-  background-color: $olive-green;
+  background-color: $red;
 }
 
 #tribe-events-content, #tribe-events-bar {
@@ -37,16 +37,17 @@
 }
 
 #tribe-events-content .tribe-events-calendar td, #tribe-events-content table.tribe-events-calendar {
-border: 1px solid $olive-green;
+border: 1px solid $red;
 }
 
 .tribe-events-calendar {
   th {
-    background-color: lighten($olive-green,15%);
+    background-color: $red;
+    color: #fff;
   }
 
   div[id*=tribe-events-daynum-] {
-    background-color: $light-green;
+    background-color: lighten($red,25%);
   }
 
 }

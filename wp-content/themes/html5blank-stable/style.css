@@ -1085,7 +1085,7 @@ header.navigation {
         background: #dde2d8; }
 
 .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-] > a, #tribe-events-content .tribe-events-tooltip h4 {
-  background-color: #aab79d; }
+  background-color: #be7773; }
 
 #tribe-events-content, #tribe-events-bar {
   max-width: 68em;
@@ -1097,12 +1097,13 @@ header.navigation {
     display: table; }
 
 #tribe-events-content .tribe-events-calendar td, #tribe-events-content table.tribe-events-calendar {
-  border: 1px solid #aab79d; }
+  border: 1px solid #be7773; }
 
 .tribe-events-calendar th {
-  background-color: #d0d7c9; }
+  background-color: #be7773;
+  color: #fff; }
 .tribe-events-calendar div[id*=tribe-events-daynum-] {
-  background-color: #f7f8f5; }
+  background-color: #e6ccca; }
 
 .col-3 .col {
   float: left;
