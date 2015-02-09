@@ -13,3 +13,4 @@ wp-content/wp-cache-config.php
 wp-content/plugins/wordpress-move/backup/
 .sass-cache
 *.codekit
+.DS_store
