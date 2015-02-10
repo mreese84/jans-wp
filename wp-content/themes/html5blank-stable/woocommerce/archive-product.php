@@ -25,12 +25,9 @@ get_header( 'shop' ); ?>
 
     <?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
-      <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-      <section class="hero internal page-title" style="background-image: url('<?php echo $image[0]; ?>');">
+      <section class="hero-solid internal page-title">
         <h2 class="hero-copy"><?php woocommerce_page_title(); ?></h2>
       </section>
-
-
 
     <?php endif; ?>
 
