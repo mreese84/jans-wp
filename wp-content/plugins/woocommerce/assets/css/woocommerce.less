@@ -399,7 +399,7 @@ p.demo_store {
         .transition();
       }
       a:hover img {
-        background-color: @light-green;
+        background-color: darken(@light-green,10%);
       }
       strong {
         display:block;
@@ -755,17 +755,17 @@ p.demo_store {
 
   /* Star rating */
   .star-rating {
+    color: @red;
     float: right;
     overflow: hidden;
     position: relative;
     height: 1em;
     line-height: 1em;
-    font-size: 1em;
+    font-size: .7em;
     width: 5.4em;
     font-family: 'star';
     &:before {
       content: "\73\73\73\73\73";
-      color: darken( @secondary, 10 );
       float: left;
       top: 0;
       left: 0;
@@ -1670,7 +1670,8 @@ p.demo_store {
       line-height: 2.4em;
       font-size: 0.8751em;
       .button {
-        font-size: 1.15em;
+        font-size: 1em;
+        padding: .5em 1em;
       }
       .button {
         float:left;
@@ -1686,9 +1687,9 @@ p.demo_store {
       width: 0.9em;
       height: 0.9em;
       .border_radius(1em);
-      border: 1px solid darken( @tertiary, 50 );
+      border: 1px solid darken( @light-green, 50 );
       cursor: pointer;
-      .vertical_gradient( @tertiary, darken( @tertiary, 10 ));
+      background-color: darken(@light-green,40%);
       outline:none;
       top: -.3em;
       -webkit-box-shadow:
@@ -1710,14 +1711,13 @@ p.demo_store {
       z-index: 1;
       font-size: .7em;
       display:block;
-      border: 0;
-      background: @tertiary url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFUlEQVQIHWP4//9/PRMDA8NzEPEMADLLBU76a5idAAAAAElFTkSuQmCC) top repeat-x; /* transparent png */
-      .inset_box_shadow(0,0,0,1px,rgba(0,0,0,0.5));
+      border: 1px solid darken(@olive-green,15%);
+      background-color: @olive-green;
       .border_radius(1em);
     }
     .price_slider_wrapper .ui-widget-content {
       .border_radius(1em);
-      .vertical_gradient( @quaternary, lighten( @quaternary, 30 ) );
+      background-color: lighten( @olive-green, 12 );
     }
     .ui-slider-horizontal {
       height: .5em;
