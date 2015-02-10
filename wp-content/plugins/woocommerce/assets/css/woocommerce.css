@@ -657,8 +657,6 @@ p.demo_store {
   height: auto;
   display: block;
   margin: 0 0 8px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   -webkit-transition: all ease-in-out 0.2s;
   -moz-transition: all ease-in-out 0.2s;
   -o-transition: all ease-in-out 0.2s;
@@ -666,8 +664,7 @@ p.demo_store {
 }
 .woocommerce ul.products li.product a:hover img,
 .woocommerce-page ul.products li.product a:hover img {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+  background-color: #f7f8f5;
 }
 .woocommerce ul.products li.product strong,
 .woocommerce-page ul.products li.product strong {
@@ -788,18 +785,14 @@ p.demo_store {
   position: relative;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   overflow: visible;
-  padding: 6px 10px;
+  padding: .69em;
   text-decoration: none;
   font-weight: bold;
   left: auto;
   text-shadow: 0 1px 0 #ffffff;
   color: #5e5e5e;
-  border: 1px solid #c7c0c7;
-  background: #f7f6f7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7f6f7), to(#dfdbdf));
-  background: -webkit-linear-gradient(#f7f6f7, #dfdbdf);
-  background: -moz-linear-gradient(center top, #f7f6f7 0%, #dfdbdf 100%);
-  background: -moz-gradient(center top, #f7f6f7 0%, #dfdbdf 100%);
+  border: 1px solid #dfdbdf;
+  background-color: #eaede7;
   white-space: nowrap;
   display: inline-block;
 }
@@ -863,11 +856,8 @@ p.demo_store {
 .woocommerce-page #respond input#submit:hover,
 .woocommerce #content input.button:hover,
 .woocommerce-page #content input.button:hover {
-  background: #f7f6f7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7f6f7), to(#d3ced3));
-  background: -webkit-linear-gradient(#f7f6f7, #d3ced3);
-  background: -moz-linear-gradient(center top, #f7f6f7 0%, #d3ced3 100%);
-  background: -moz-gradient(center top, #f7f6f7 0%, #d3ced3 100%);
+  background-color: #d0d7c9;
+  color: #5e5e5e;
   text-decoration: none;
 }
 .woocommerce a.button:active,
@@ -892,12 +882,8 @@ p.demo_store {
 .woocommerce-page #respond input#submit.alt,
 .woocommerce #content input.button.alt,
 .woocommerce-page #content input.button.alt {
-  background: #aab79d;
-  background: -webkit-gradient(linear, left top, left bottom, from(#aab79d), to(#91a180));
-  background: -webkit-linear-gradient(#aab79d, #91a180);
-  background: -moz-linear-gradient(center top, #aab79d 0%, #91a180 100%);
-  background: -moz-gradient(center top, #aab79d 0%, #91a180 100%);
-  border-color: #778965;
+  background-color: #aab79d;
+  border-color: #91a180;
   color: #2b2b2b;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
 }
@@ -911,11 +897,7 @@ p.demo_store {
 .woocommerce-page #respond input#submit.alt:hover,
 .woocommerce #content input.button.alt:hover,
 .woocommerce-page #content input.button.alt:hover {
-  background: #aab79d;
-  background: -webkit-gradient(linear, left top, left bottom, from(#aab79d), to(#849771));
-  background: -webkit-linear-gradient(#aab79d, #849771);
-  background: -moz-linear-gradient(center top, #aab79d 0%, #849771 100%);
-  background: -moz-gradient(center top, #aab79d 0%, #849771 100%);
+  background-color: #9dac8e;
   color: #3c3c3c;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
 }
@@ -1011,10 +993,6 @@ p.demo_store {
   box-shadow: inset 0 0 2px 0 #f7f6f7;
   -webkit-box-shadow: inset 0 0 2px 0 #f7f6f7;
   font-weight: bold;
-  -webkit-border-top-left-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
   -moz-appearance: textfield;
   /* Hide buttons for Firefox 29 and later */
 }
@@ -1050,8 +1028,6 @@ p.demo_store {
   cursor: pointer;
   line-height: 13px;
   font-size: 12px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
   color: #5e5e5e;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   border: 1px solid #c7c0c7;
@@ -1085,10 +1061,6 @@ p.demo_store {
   top: 0;
   right: 0;
   border-bottom: 0;
-  -webkit-border-bottom-left-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 .woocommerce .quantity .minus,
 .woocommerce-page .quantity .minus,
@@ -1096,10 +1068,6 @@ p.demo_store {
 .woocommerce-page #content .quantity .minus {
   bottom: 0;
   right: 0;
-  -webkit-border-top-left-radius: 0;
-  -webkit-border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
 }
 .woocommerce #reviews h2 small,
 .woocommerce-page #reviews h2 small {
@@ -1603,7 +1571,8 @@ p.demo_store {
 .woocommerce-page table.cart img,
 .woocommerce #content table.cart img,
 .woocommerce-page #content table.cart img {
-  width: 32px;
+  width: 40px;
+  padding: 2px;
 }
 .woocommerce table.cart th,
 .woocommerce-page table.cart th,
@@ -1646,6 +1615,7 @@ p.demo_store {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 10em;
   box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid #dfdbdf;
@@ -1653,6 +1623,12 @@ p.demo_store {
   margin: 0 4px 0 0;
   outline: 0;
   line-height: 1em;
+}
+.woocommerce table.cart td.actions .coupon input[type=submit],
+.woocommerce-page table.cart td.actions .coupon input[type=submit],
+.woocommerce #content table.cart td.actions .coupon input[type=submit],
+.woocommerce-page #content table.cart td.actions .coupon input[type=submit] {
+  padding: .69em;
 }
 .woocommerce table.cart input,
 .woocommerce-page table.cart input,
@@ -1711,8 +1687,7 @@ p.demo_store {
   margin-left: 4px;
   width: 32px;
   height: auto;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  padding: 2px;
 }
 .woocommerce ul.cart_list li dl,
 .woocommerce-page ul.cart_list li dl,
@@ -2549,37 +2524,4 @@ p.demo_store {
 .woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range-max,
 .woocommerce-page .widget_price_filter .ui-slider-horizontal .ui-slider-range-max {
   right: -1px;
-}
-/* =Twenty Thirteen Specific styles
--------------------------------------------------------------- */
-.single-product .twentythirteen .entry-summary,
-.single-product .twentythirteen #reply-title,
-.single-product .twentythirteen #respond #commentform {
-  padding: 0;
-}
-.single-product .twentythirteen p.stars {
-  clear: both;
-}
-.twentythirteen .woocommerce-breadcrumb {
-  padding-top: 40px;
-}
-/* =Twenty Fourteen Specific styles
--------------------------------------------------------------- */
-.twentyfourteen ul.products li.product {
-  margin-top: 0 !important;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .woocommerce a.button.loading:before,
-  .woocommerce-page a.button.loading:before,
-  .woocommerce button.button.loading:before,
-  .woocommerce-page button.button.loading:before,
-  .woocommerce input.button.loading:before,
-  .woocommerce-page input.button.loading:before,
-  .woocommerce #respond input#submit.loading:before,
-  .woocommerce-page #respond input#submit.loading:before,
-  .woocommerce #content input.button.loading:before,
-  .woocommerce-page #content input.button.loading:before {
-    background-image: url(../images/ajax-loader@2x.gif);
-    background-size: 16px 16px;
-  }
 }

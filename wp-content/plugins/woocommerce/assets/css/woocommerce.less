@@ -396,11 +396,10 @@ p.demo_store {
         height:auto;
         display:block;
         margin: 0 0 8px;
-        .box_shadow(0,1px,2px,0,rgba(0,0,0,0.3));
         .transition();
       }
       a:hover img {
-        .box_shadow(0,1px,3px,0,rgba(0,0,0,0.4));
+        background-color: @light-green;
       }
       strong {
         display:block;
@@ -485,14 +484,14 @@ p.demo_store {
     font-family: @sans-serif;
     text-decoration:none;
     overflow: visible;
-    padding: 6px 10px;
+    padding: .69em;
     text-decoration:none;
     font-weight:bold;
     left: auto;
     text-shadow:0 1px 0 @secondary + #111;
     color: @secondarytext;
-    border: 1px solid darken( @secondary, 20 );
-    .vertical_gradient( @secondary, darken( @secondary, 10 ) );
+    border: 1px solid darken( @secondary, 10 );
+    background-color: darken(@light-green,5);
     white-space: nowrap;
     display: inline-block;
 
@@ -525,7 +524,8 @@ p.demo_store {
     }
 
     &:hover {
-      .vertical_gradient( @secondary, darken( @secondary, 15 ) );
+      background-color: darken(@light-green,15);
+      color: @secondarytext;
       text-decoration:none;
     }
 
@@ -534,13 +534,13 @@ p.demo_store {
     }
 
     &.alt {
-      .vertical_gradient( @primary, darken( @primary, 10 ) );
-      border-color: darken(@primary, 20);
+      background-color: @olive-green;
+      border-color: darken(@primary, 10);
       color: @primarytext;
       .darkorlighttextshadow( @primarytext, 0.6 );
 
       &:hover {
-        .vertical_gradient( @primary, darken( @primary, 15 ) );
+        background-color: darken(@olive-green,5);
         color:@primarytext + #111;
         .darkorlighttextshadow( @primarytext + #111, 0.6 );
       }
@@ -595,7 +595,6 @@ p.demo_store {
       .border_radius_right(0);
       .inset_box_shadow( 0, 0, 2px, 0, @secondary );
       font-weight:bold;
-      .border_radius_left(2px);
       -moz-appearance: textfield; /* Hide buttons for Firefox 29 and later */
     }
 
@@ -620,7 +619,7 @@ p.demo_store {
       cursor: pointer;
       line-height: 13px;
       font-size: 12px;
-      .border_radius(2px);
+
 
       color: @secondarytext;
       .darkorlighttextshadow( @secondarytext );
@@ -649,13 +648,11 @@ p.demo_store {
       top: 0;
       right: 0;
       border-bottom: 0;
-      .border_radius_bottom(0);
     }
 
     .minus {
       bottom: 0;
       right: 0;
-      .border_radius_top(0);
     }
   }
 
@@ -1058,7 +1055,8 @@ p.demo_store {
       min-width: 32px;
     }
     img {
-      width: 32px;
+      width: 40px;
+      padding: 2px;
     }
     th, td {
       vertical-align: middle;
@@ -1086,6 +1084,7 @@ p.demo_store {
           -webkit-box-sizing:border-box;
           -moz-box-sizing:border-box;
           box-sizing:border-box;
+          width: 10em;
 
           .inset_box_shadow(0, 1px, 4px, 0, rgba(0,0,0,0.1));
 
@@ -1094,6 +1093,9 @@ p.demo_store {
           margin: 0 4px 0 0;
           outline: 0;
           line-height: 1em;
+        }
+        input[type=submit] {
+          padding: .69em;
         }
       }
     }
@@ -1126,7 +1128,7 @@ p.demo_store {
         margin-left: 4px;
         width: 32px;
         height:auto;
-        .box_shadow(0,1px,2px,0,rgba(0,0,0,0.3));
+        padding: 2px;
       }
       dl {
         margin: 0;
@@ -1732,51 +1734,3 @@ p.demo_store {
     }
   }
 } // end .woocommerce-page namespacing wrap
-
-
-/* =Twenty Thirteen Specific styles
--------------------------------------------------------------- */
-.single-product {
-  .twentythirteen {
-    .entry-summary,
-    #reply-title,
-    #respond #commentform {
-      padding: 0;
-    }
-
-    p.stars {
-      clear: both;
-    }
-  }
-}
-
-.twentythirteen {
-  .woocommerce-breadcrumb {
-    padding-top: 40px;
-  }
-}
-
-/* =Twenty Fourteen Specific styles
--------------------------------------------------------------- */
-.twentyfourteen {
-  ul.products {
-    li.product {
-      margin-top: 0 !important;
-    }
-  }
-}
-
-@media
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-  .woocommerce, .woocommerce-page {
-    a.button, button.button, input.button, #respond input#submit, #content input.button {
-      &.loading {
-        &:before {
-          background-image: url(../images/ajax-loader@2x.gif);
-          background-size: 16px 16px;
-        }
-      }
-    }
-  }
-}

@@ -641,6 +641,9 @@ img {
   margin-right: 1em;
   margin-left: 0; }
 
+.attachement-shop_catalog {
+  box-shadow: none; }
+
 header.navigation {
   background-color: rgba(170, 183, 157, 0.9);
   border-bottom: 1px solid rgba(145, 161, 128, 0.9);
