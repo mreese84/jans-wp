@@ -15,6 +15,10 @@
         }
       });
     });
+
+    $(".share-fb").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href);
+    $(".share-twitter").attr("href", "https://twitter.com/home?status=" + window.location.href);
+    $(".share-google").attr("href", "https://plus.google.com/share?url=" + window.location.href);
   });
 
 })(jQuery, this);

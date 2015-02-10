@@ -15,9 +15,9 @@
       <section class="article" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <aside class="share-tools">
           <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter" ></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a class="share-fb" href="javascript:void(0)" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="share-twitter" href="javascript:void(0)" target="_blank"><i class="fa fa-twitter" ></i></a></li>
+            <li><a class="share-google" href="javascript:void(0)" target="_blank"><i class="fa fa-google-plus"></i></a></li>
           </ul>
         </aside>
         <article>
