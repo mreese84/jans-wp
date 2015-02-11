@@ -48,6 +48,13 @@ get_header( 'shop' ); ?>
           do_action( 'woocommerce_before_shop_loop' );
         ?>
 
+        <div class="account-options">
+          <ul>
+            <li><?php wp_loginout(); ?></li>
+            <li><a href="<?php echo home_url();?>/my-account">My Account</a></li>
+          </ul>
+        </div>
+
         <?php woocommerce_product_loop_start(); ?>
 
           <?php woocommerce_product_subcategories(); ?>

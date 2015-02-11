@@ -1525,6 +1525,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_jan-static\/sass\/components\/_account-options.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_jan-static\/sass\/components\/_account-options.scss",
+		"outputAbbreviatedPath": "\/_jan-static\/sass\/css\/_account-options.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_jan-static\/sass\/components\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -11274,6 +11290,291 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/css\/admin\/wc-customer-order-csv-export-admin.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/css\/admin\/wc-customer-order-csv-export-admin.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/admin\/wc-customer-order-csv-export-admin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/admin\/wc-customer-order-csv-export-admin.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/admin\/min\/wc-customer-order-csv-export-admin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/jquery-timepicker\/jquery.timepicker.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/jquery-timepicker\/jquery.timepicker.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/jquery-timepicker\/min\/jquery.timepicker-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/jquery-timepicker\/jquery.timepicker.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/jquery-timepicker\/jquery.timepicker.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/assets\/js\/jquery-timepicker\/min\/jquery.timepicker.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/admin\/class-wc-customer-order-csv-export-admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/admin\/class-wc-customer-order-csv-export-admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/class-wc-customer-order-csv-export-compatibility.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/class-wc-customer-order-csv-export-compatibility.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/class-wc-customer-order-csv-export-cron.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/class-wc-customer-order-csv-export-cron.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/class-wc-customer-order-csv-export-generator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/class-wc-customer-order-csv-export-generator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/class-wc-customer-order-csv-export-handler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/class-wc-customer-order-csv-export-handler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/class-wc-customer-order-csv-export-method-download.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/class-wc-customer-order-csv-export-method-download.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/class-wc-customer-order-csv-export-method-email.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/class-wc-customer-order-csv-export-method-email.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/class-wc-customer-order-csv-export-method-http-post.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/class-wc-customer-order-csv-export-method-http-post.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/ftp\/abstract-wc-customer-order-csv-export-method-file-transfer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/ftp\/abstract-wc-customer-order-csv-export-method-file-transfer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/ftp\/class-wc-customer-order-csv-export-method-ftp-implicit-ssl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/ftp\/class-wc-customer-order-csv-export-method-ftp-implicit-ssl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/ftp\/class-wc-customer-order-csv-export-method-ftp.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/ftp\/class-wc-customer-order-csv-export-method-ftp.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/ftp\/class-wc-customer-order-csv-export-method-sftp.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/ftp\/class-wc-customer-order-csv-export-method-sftp.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/interface-wc-customer-order-csv-export-method.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/includes\/export-methods\/interface-wc-customer-order-csv-export-method.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/api\/class-sv-wc-api-base.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/api\/class-sv-wc-api-base.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/api\/class-sv-wc-api-exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/api\/class-sv-wc-api-exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/api\/interface-sv-wc-api-request.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/api\/interface-sv-wc-api-request.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/api\/interface-sv-wc-api-response.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/api\/interface-sv-wc-api-response.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-admin-notice-handler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-admin-notice-handler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-framework-bootstrap.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-framework-bootstrap.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-helper.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-helper.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-plugin-compatibility.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-plugin-compatibility.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-plugin-exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-plugin-exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-plugin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wc-plugin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wp-admin-message-handler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/lib\/skyverge\/woocommerce\/class-sv-wp-admin-message-handler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/woo-includes\/class-wc-dependencies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/woo-includes\/class-wc-dependencies.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/woo-includes\/woo-functions.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/woo-includes\/woo-functions.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/woocommerce-customer-order-csv-export.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-customer-order-csv-export\/woocommerce-customer-order-csv-export.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/woocommerce-predictive-search\/admin\/admin-init.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -18642,6 +18943,254 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce\/woocommerce.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.less",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/getting-started.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6293,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/getting-started.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/getting-started.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-jump.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10280,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-jump.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-jump.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-kick.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54725,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-kick.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-kick.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-stand.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47845,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-stand.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-stand.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/sensei.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6108,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/sensei.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/sensei.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/themes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5029,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/themes.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/themes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woo-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15622,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woo-logo.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woo-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woocommerce.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2909,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woocommerce.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woocommerce.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/assets\/js\/admin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/js\/admin.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/js\/min\/admin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-api.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-api.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-licenses-table.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-licenses-table.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-screen.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-screen.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-self-updater.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-self-updater.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-theme-update-checker.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-theme-update-checker.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-update-checker.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-update-checker.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/README.md",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/screens\/screen-help.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/screens\/screen-help.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/screens\/screen-manage.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/screens\/screen-manage.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/screens\/woothemes-api-unreachable.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/screens\/woothemes-api-unreachable.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woothemes-updater\/woothemes-updater.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/woothemes-updater.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

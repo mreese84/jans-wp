@@ -1,0 +1,17 @@
+.account-options {
+  text-align: right;
+
+  li {
+    display: inline-block;
+
+    a, &:visited {
+      color: $olive-green;
+      padding: .1em .5em;
+      background-color: darken($light-green,5);
+
+      &:hover {
+        background-color: darken($light-green,10);
+      }
+    }
+  }
+}

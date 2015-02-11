@@ -1108,6 +1108,17 @@ header.navigation {
 .tribe-events-calendar div[id*=tribe-events-daynum-] {
   background-color: #e6ccca; }
 
+.account-options {
+  text-align: right; }
+  .account-options li {
+    display: inline-block; }
+    .account-options li a, .account-options li:visited {
+      color: #aab79d;
+      padding: .1em .5em;
+      background-color: #eaede7; }
+      .account-options li a:hover, .account-options li:visited:hover {
+        background-color: #dde2d8; }
+
 .col-3 .col {
   float: left;
   display: block;
