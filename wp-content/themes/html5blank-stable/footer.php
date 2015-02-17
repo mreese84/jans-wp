@@ -8,13 +8,6 @@
             echo $mailchimpreg;
           ?>
 
-          <!--<form id="footer-newsletter" action="index.html" method="post">
-            <input type="text" name="newsletter-signup" value="Sign up for our newsletter!">
-            <button type="button" class="btn btn-green"><i class="fa fa-send"></i></button>
-          </form>-->
-          <div class="online-order">
-            <a class="btn" href="#">Order Online!</a>
-          </div>
         </div>
         <div class="col connect">
           <ul>
@@ -27,7 +20,7 @@
           <dl>
             <dd itemprop="address" itemtype="http://data-vocabulary.org/Address">
               <span itemprop="name"><b>Jan's On 4th</b></span><br>
-              <span itemprop="street-address">10004 4th Stree, NW</span><br>
+              <span itemprop="street-address">10004 4th St, NW</span><br>
               <span itemprop="locality">Albuquerque</span>,
               <span itemprop="region">NM</span>
               <span itemprop="postal-code">87114</span><br>

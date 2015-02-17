@@ -46,13 +46,13 @@
     font-size: 1.1em;
     padding: .1em 0;
     text-align: center;
-    //background: url(../img/close-quote.png) no-repeat;
-    //background-position: 110% 110%;
 
     #quote {
-      padding-top: 1em;
-      padding-bottom: 1em;
+      padding-top: .5em;
 
+      @include phone {
+        padding-top: .25em;
+      }
     }
 
     #quoteauthor {
@@ -61,6 +61,12 @@
 
     &:after {
       font-family: "Sorts Mill Goudy", serif;
+    }
+
+    @include phone {
+      padding: 0 0;
+      font-size: 1em;
+      max-width: 95%;
     }
   }
 }

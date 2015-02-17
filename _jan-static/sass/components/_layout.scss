@@ -3,6 +3,10 @@
 
    .col {
     @include span-columns(4);
+
+    @include phone {
+      @include span-columns(6);
+    }
   }
 }
 
@@ -16,6 +20,19 @@
 
   article {
     @include span-columns(8);
+  }
+
+  @include phone {
+    @include outer-container(100%);
+
+    aside {
+      display: none;
+    }
+
+    article {
+      @include span-columns(10);
+      @include shift(1);
+    }
   }
 }
 
