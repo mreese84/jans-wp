@@ -48,6 +48,17 @@
     @include span-columns(3);
 
   }
+
+  @include phone{
+
+    article {
+      @include span-columns(12);
+    }
+
+    aside {
+      @include span-columns(12);
+    }
+  }
 }
 
 //Full width layout with margin on top to account for nav overlay and margin on the sides

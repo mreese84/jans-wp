@@ -64,6 +64,16 @@
 
 .woo-product {
   font-family: $sans-serif;
+
+  .woocommerce-result-count {
+    float: left;
+
+    @include phone {
+      float: none;
+    }
+  }
+
+
 }
 
 .woocommerce {

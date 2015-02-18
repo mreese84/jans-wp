@@ -3,6 +3,7 @@
 
   li {
     display: inline-block;
+    margin-bottom: 1em;
 
     a, &:visited {
       color: $olive-green;
@@ -13,5 +14,9 @@
         background-color: darken($light-green,10);
       }
     }
+  }
+
+  @include phone {
+    text-align: left;
   }
 }

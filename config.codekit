@@ -1765,15 +1765,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_jan-static\/sass\/components\/_woo-filter.scss": {
+	"\/_jan-static\/sass\/components\/_woo-sidebar.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_jan-static\/sass\/components\/_woo-filter.scss",
-		"outputAbbreviatedPath": "\/_jan-static\/sass\/css\/_woo-filter.css",
+		"inputAbbreviatedPath": "\/_jan-static\/sass\/components\/_woo-sidebar.scss",
+		"outputAbbreviatedPath": "\/_jan-static\/sass\/css\/_woo-sidebar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
