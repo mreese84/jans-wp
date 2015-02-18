@@ -34,6 +34,10 @@ header.navigation {
   position: fixed;
   top: 0;
 
+  @include phone {
+    background-color: $olive-green;
+  }
+
   .navigation-wrapper {
     @include clearfix;
     padding: 0 $gutter;
@@ -211,6 +215,11 @@ header.navigation {
     display: none;
     padding-left: 0;
     text-transform: initial;
+    background-color: rgba($olive-green,.9);
+
+    @include phone {
+      background: none;
+    }
 
     @include media($horizontal-bar-mode) {
       left: -$navigation-submenu-padding;
@@ -247,9 +256,17 @@ header.navigation {
       a {
         //background-color: lighten($navigation-background, 3%);
         display: inline-block;
-        text-align: right;
+        text-align: left;
         width: 100%;
         font-weight: 400;
+
+        @include phone {
+          text-align: right;
+        }
+      }
+
+      @include media($horizontal-bar-mode) {
+        width: $navigation-submenu-width;
       }
     }
   }

@@ -654,6 +654,9 @@ header.navigation {
   top: 0; }
   header.navigation a {
     text-decoration: none; }
+  @media (max-width: 767px) {
+    header.navigation {
+      background-color: #aab79d; } }
   header.navigation .navigation-wrapper {
     padding: 0 1.618em;
     position: relative;
@@ -774,7 +777,11 @@ header.navigation {
   header.navigation ul.sub-menu {
     display: none;
     padding-left: 0;
-    text-transform: initial; }
+    text-transform: initial;
+    background-color: rgba(170, 183, 157, 0.9); }
+    @media (max-width: 767px) {
+      header.navigation ul.sub-menu {
+        background: none; } }
     @media screen and (min-width: 53.75em) {
       header.navigation ul.sub-menu {
         left: -1em;
@@ -799,9 +806,15 @@ header.navigation {
             padding-bottom: 0.7em; } }
       header.navigation ul.sub-menu li a {
         display: inline-block;
-        text-align: right;
+        text-align: left;
         width: 100%;
         font-weight: 400; }
+        @media (max-width: 767px) {
+          header.navigation ul.sub-menu li a {
+            text-align: right; } }
+      @media screen and (min-width: 53.75em) {
+        header.navigation ul.sub-menu li {
+          width: 12em; } }
 
 .hero {
   background-color: #aab79d;
