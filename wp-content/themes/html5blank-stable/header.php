@@ -24,43 +24,23 @@
             tests: {}
         });
         </script>
-
   </head>
   <body <?php body_class(); ?>>
-
     <!-- wrapper -->
     <div class="wrapper">
-
       <!-- header -->
       <header class="navigation" role="banner">
-
           <div class="navigation-wrapper">
             <!-- logo -->
             <a href="<?php echo home_url(); ?>" class="logo">
               <img src="<?php echo get_template_directory_uri(); ?>/img/logo-web.png" alt="Logo Image">
             </a>
-            <!-- /logo -->
+            <!-- Mobile menu -->
             <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu"><i class="fa fa-navicon"></i></a>
-
             <!-- nav -->
             <nav class="nav" role="navigation">
               <?php html5blank_nav(); ?>
             </nav>
-
-            <!-- nav search
-            <div class="navigation-tools">
-              <div class="search-bar">
-                <form role="search">
-                  <input type="search" placeholder="Enter Search" />
-                  <button type="submit">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon.png" alt="Search Icon">
-                  </button>
-                </form>
-              </div>
-            </div>
-              /nav search -->
-            <!-- /nav -->
           </div>
-
       </header>
       <!-- /header -->
