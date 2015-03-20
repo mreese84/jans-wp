@@ -13364,6 +13364,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/woocommerce-products-filter\/css\/shortcode_skins\/example.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/css\/shortcode_skins\/example.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-filter\/css\/shortcode_skins\/vertical1.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/css\/shortcode_skins\/vertical1.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/woocommerce-products-filter\/helper.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13598,6 +13616,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-filter\/js\/front.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/js\/front.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/js\/min\/front-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/woocommerce-products-filter\/js\/html_types\/checkbox.js": {
 		"fileType": 64,
@@ -15053,6 +15082,28 @@
 		"initialSize": 33570,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/screenshot-1.png",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/screenshot-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-filter\/screenshot-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18021,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/screenshot-2.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/screenshot-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-filter\/screenshot-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20242,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/screenshot-3.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce-products-filter\/screenshot-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -19829,6 +19880,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/woocommerce\/templates\/emails\/email-footer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce\/templates\/emails\/email-footer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/woocommerce\/templates\/emails\/email-header.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -20482,254 +20542,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/woocommerce\/woocommerce.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.less",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/css\/admin.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/getting-started.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6293,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/getting-started.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/getting-started.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-jump.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10280,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-jump.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-jump.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-kick.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54725,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-kick.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-kick.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-stand.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47845,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-stand.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/ninja-stand.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/sensei.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6108,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/sensei.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/sensei.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/themes.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5029,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/themes.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/themes.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woo-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15622,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woo-logo.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woo-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woocommerce.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2909,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woocommerce.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/images\/woocommerce.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/assets\/js\/admin.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/js\/admin.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/assets\/js\/min\/admin-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-admin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-admin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-api.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-api.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-licenses-table.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-licenses-table.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-screen.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-screen.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-self-updater.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-self-updater.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-theme-update-checker.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-theme-update-checker.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-update-checker.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater-update-checker.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/classes\/class-woothemes-updater.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/README.md",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/screens\/screen-help.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/screens\/screen-help.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/screens\/screen-manage.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/screens\/screen-manage.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/screens\/woothemes-api-unreachable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/screens\/woothemes-api-unreachable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/woothemes-updater\/woothemes-updater.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/woothemes-updater\/woothemes-updater.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -338,8 +338,15 @@ class WC_Customer_Order_CSV_Export_Handler {
 					break;
 			}
 
-			$order->add_order_note( sprintf( __( 'Order exported to CSV and successfully %s', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ), $message ) );
-
+			/**
+			 * Filter if an order note should be added when an order is successfully exported
+			 *
+			 * @since 3.9.1
+			 * @param bool $add_order_note true if the order note should be added, false otherwise
+			 */
+			if ( apply_filters( 'wc_customer_order_csv_export_add_order_note', true ) ) {
+				$order->add_order_note( sprintf( __( 'Order exported to CSV and successfully %s', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ), $message ) );
+			}
 
 			/**
 			 * CSV Order Exported Action.

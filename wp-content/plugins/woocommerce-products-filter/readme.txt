@@ -1,33 +1,34 @@
 === WooCommerce Products Filter ===
 Contributors: RealMag777
 Donate link: http://codecanyon.net/item/wordpress-meta-data-taxonomies-filter/7002700?ref=realmag777
-Tags: woocommerce products filter, products filter, filter, shortcode, woocommerce
+Tags: woocommerce products filter, products filter, filter, shortcode, woocommerce, products
 Requires at least: 3.8.0
-Tested up to: 4.1.0
-Stable tag: 1.0.2
+Tested up to: 4.1.1
+Stable tag: 1.0.5
 
-WooCommerce Products Filter – quick and easy products filter
+WooCommerce Products Filter – Quick&Easy products filter
 
 == Description ==
 
 WooCommerce Products Filter – is a plugin that allows you filter products by products categories, products attributes, products tags, products custom taxonomies.
 Supports latest version of the WooCommerce plugin.
 
-The Plugin Features:
+### The Plugin Features:
 
-    * Shortcode&Widget -> [woof]
-    * Uses native woocommerce API only
-    * You can show your taxonomies as: radio, checkbox, drop-down, multi-drop-down
-    * Different skins for radio and checkboxes
-    * Dynamic products recount
-    * Simple options
-    * Demo site: http://woocommerce-filter.com
+* Shortcode&Widget -> [woof]
+* Uses native woocommerce API only
+* You can show your taxonomies as: radio, checkbox, drop-down, multi-drop-down
+* Different skins for radio and checkboxes in the plugin settings
+* Dynamic products recount
+* Simple options
+* WPML compatibility
+* Demo site is: http://woocommerce-filter.com
 
 
 == Installation ==
 * Download to your plugin directory or simply install via Wordpress admin interface.
 * Activate.
-* Set product taxonomies in the plugin settings tab ofthe wocommerce settings page
+* Set product taxonomies in the plugin settings tab of the wocommerce settings page
 * Drop the WooCommerce Products Filter widget in the sidebar.
 * Use.
 
@@ -44,6 +45,18 @@ R: Use this plugin https://wordpress.org/plugins/custom-post-type-ui/
 1. The plugin settings
 
 == Changelog ==
+
+= 1.0.5 =
+* Heap of bugs from customers is fixed
+* Possibility to add a FILTER button, so the plugin dont search automatically until someone click on Filter
+* New option 'Use chosen' - you can switch off/on this js lib from now
+* In stock only checkbox on the front
+
+= 1.0.4 =
+Partly WPML compatibility + some little fixes
+
+= 1.0.3 =
+Adopted to woocommerce 2.3.2 and higher for products attributes filtering
 
 = 1.0.2 =
 Very important 1 bug fixed with Fatal Error. Corrected work with the native price filter (dynamic recount)

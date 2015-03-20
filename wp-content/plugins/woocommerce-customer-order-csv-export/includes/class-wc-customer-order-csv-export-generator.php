@@ -55,8 +55,14 @@ class WC_Customer_Order_CSV_Export_Generator {
 	 */
 	public function __construct( $ids ) {
 
-		// either order IDs or customer IDs
-		$this->ids = $ids;
+		/**
+		 * Filter the order/customer IDs
+		 *
+		 * @since 3.9.1
+		 * @param string $delimiter, defaults to comma (,)
+		 * @param \WC_Customer_Order_CSV_Export_Generator $this, generator instance
+		 */
+		$this->ids = apply_filters( 'wc_customer_order_csv_export_ids', $ids, $this );
 
 		$this->order_format = get_option( 'wc_customer_order_csv_export_order_format' );
 
@@ -65,7 +71,7 @@ class WC_Customer_Order_CSV_Export_Generator {
 		 *
 		 * Filter the delimiter used for the CSV file
 		 *
-		 * @since 3.0
+		 * @since 3.0.0
 		 * @param string $delimiter, defaults to comma (,)
 		 * @param \WC_Customer_Order_CSV_Export_Generator $this, generator instance
 		 */
@@ -76,7 +82,7 @@ class WC_Customer_Order_CSV_Export_Generator {
 		 *
 		 * Filter the enclosure used for the CSV file
 		 *
-		 * @since 3.0
+		 * @since 3.0.0
 		 * @param string $enclosure, defaults to double quote (")
 		 * @param \WC_Customer_Order_CSV_Export_Generator $this, generator instance
 		 */
@@ -174,6 +180,8 @@ class WC_Customer_Order_CSV_Export_Generator {
 			'status'              => 'status',
 			'shipping_total'      => 'shipping_total',
 			'shipping_tax_total'  => 'shipping_tax_total',
+			'fee_total'           => 'fee_total',
+			'fee_tax_total'       => 'fee_tax_total',
 			'tax_total'           => 'tax_total',
 			'cart_discount'       => 'cart_discount',
 			'order_discount'      => 'order_discount',
@@ -224,6 +232,7 @@ class WC_Customer_Order_CSV_Export_Generator {
 		}
 
 		$column_headers['shipping_items']       = 'shipping_items';
+		$column_headers['fee_items']            = 'fee_items';
 		$column_headers['tax_items']            = 'tax_items';
 		$column_headers['coupon_items']         = 'coupons';
 		$column_headers['order_notes']          = 'order_notes';
@@ -259,7 +268,7 @@ class WC_Customer_Order_CSV_Export_Generator {
 
 		$order = SV_WC_Plugin_Compatibility::wc_get_order( $order_id );
 
-		$line_items = $shipping_items = $tax_items = $coupon_items = array();
+		$line_items = $shipping_items = $fee_items = $tax_items = $coupon_items = array();
 
 		// get line items
 		foreach ( $order->get_items() as $item_id => $item ) {
@@ -293,7 +302,7 @@ class WC_Customer_Order_CSV_Export_Generator {
 
 			if ( SV_WC_Plugin_Compatibility::is_wc_version_gte_2_2() ) {
 				// add line item tax
-				$line_tax_data    = isset( $item['line_tax_data'] ) ? $item['line_tax_data'] : '';
+				$line_tax_data    = isset( $item['line_tax_data'] ) ? $item['line_tax_data'] : array();
 				$tax_data         = maybe_unserialize( $line_tax_data );
 				$line_item['tax'] = isset( $tax_data['total'] ) ? wc_format_decimal( wc_round_tax_total( array_sum( $tax_data['total'] ) ), 2 ) : '';
 			}
@@ -335,6 +344,22 @@ class WC_Customer_Order_CSV_Export_Generator {
 			) );
 		}
 
+		// get fee items & total
+		$fee_total = 0;
+		$fee_tax_total = 0;
+
+		foreach ( $order->get_fees() as $fee_id => $fee ) {
+
+			$fee_items[] = implode( '|', array(
+				'name:' . $fee['name'],
+				'total:' . wc_format_decimal( $fee['line_total'], 2 ),
+				'tax:' . wc_format_decimal( $fee['line_tax'], 2 ),
+			) );
+
+			$fee_total     += $fee['line_total'];
+			$fee_tax_total += $fee['line_tax'];
+		}
+
 		// get tax items
 		foreach ( $order->get_tax_totals() as $tax_code => $tax ) {
 
@@ -365,6 +390,8 @@ class WC_Customer_Order_CSV_Export_Generator {
 			'status'               => SV_WC_Plugin_Compatibility::get_order_status( $order ),
 			'shipping_total'       => $order->get_total_shipping(),
 			'shipping_tax_total'   => wc_format_decimal( $order->get_shipping_tax(), 2 ),
+			'fee_total'            => wc_format_decimal( $fee_total, 2 ),
+			'fee_tax_total'        => wc_format_decimal( $fee_tax_total, 2 ),
 			'tax_total'            => wc_format_decimal( $order->get_total_tax(), 2 ),
 			'cart_discount'        => SV_WC_Plugin_Compatibility::is_wc_version_gte_2_3() ? wc_format_decimal( $order->get_total_discount(), 2 ) : wc_format_decimal( $order->get_cart_discount(), 2 ),
 			'order_discount'       => SV_WC_Plugin_Compatibility::is_wc_version_gte_2_3() ? wc_format_decimal( $order->get_total_discount(), 2 ) : wc_format_decimal( $order->get_order_discount(), 2 ),
@@ -397,6 +424,7 @@ class WC_Customer_Order_CSV_Export_Generator {
 			'shipping_country'     => $order->shipping_country,
 			'customer_note'        => $order->customer_note,
 			'shipping_items'       => implode( ';', $shipping_items ),
+			'fee_items'            => implode( ';', $fee_items ),
 			'tax_items'            => implode( ';', $tax_items ),
 			'coupon_items'         => implode( ';', $coupon_items ),
 			'order_notes'          => implode( '|', $this->get_order_notes( $order ) ),

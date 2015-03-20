@@ -1,5 +1,12 @@
 *** WooCommerce Customer/Order CSV Export Changelog ***
 
+2015.03.12 - version 3.9.1
+ * Fix - Fix a warning when a line item has no tax data
+ * Tweak - Include order fees in exports
+ * Tweak - Introduce `wc_customer_order_csv_export_ids` filter
+ * Tweak - Introduce `wc_customer_order_csv_export_add_order_note` filter
+ * Tweak - Display the local time and next scheduled export next to the Export Start Time field
+
 2015.02.09 - version 3.9.0
  * Tweak - Don't clear the export cron job unless the interval and/or start time were changed
  * Misc - WooCommerce 2.3 Compatibility

@@ -27,33 +27,30 @@ jQuery(function () {
 });
 
 function woof_radio_direct_search(name, slug) {
-    var link = woof_current_page_link + "?swoof=1";
-    //+++
-    if (jQuery(woof_current_values).size() > 0) {
-        jQuery.each(woof_current_values, function (index, value) {
-            if (index == 'swoof') {
-                return;
-            }
-            //***
-            if (index != name) {
-                link = link + "&" + index + "=" + value;
-            }
-        });
-    }
 
-    if (slug !== 0) {
-        link = link + "&" + name + "=" + slug;
-    }
-    //sanitize link for '?swoof=1' only
-    var tmp_link = link.split('?swoof=1');
-    try {
-        if (tmp_link[1].length == 0) {
-            link = tmp_link[0];
+    jQuery.each(woof_current_values, function (index, value) {
+        if (index == name) {
+            delete woof_current_values[name];
+            return;
         }
-    } catch (e) {
+    });
 
+    if (slug != 0) {
+        woof_current_values[name] = slug;
+        jQuery('a.woof_radio_term_reset[name=' + name + ']').hide();
+        jQuery('input[name=' + name + ']').filter(':checked').parents('li').find('a.woof_radio_term_reset').show();
+        jQuery('input[name=' + name + ']').parents('ul.woof_list_radio').find('label').css({'fontWeight': 'normal'});
+        jQuery('input[name=' + name + ']').filter(':checked').parents('li').find('label').css({'fontWeight': 'bold'});
+    } else {
+        jQuery('a.woof_radio_term_reset[name=' + name + ']').hide();
+        jQuery('input[name=' + name + ']').attr('checked', false);
+        jQuery('input[name=' + name + ']').parent().removeClass('checked');
+        jQuery('input[name=' + name + ']').parents('ul.woof_list_radio').find('label').css({'fontWeight': 'normal'});
     }
-    //+++
-    window.location = link;
+
+
+    if (woof_autosubmit) {
+        window.location = woof_get_submit_link();
+    }
 }
 

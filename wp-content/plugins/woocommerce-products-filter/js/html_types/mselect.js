@@ -10,33 +10,21 @@ jQuery(function () {
 });
 
 function woof_mselect_direct_search(name, slug) {
-    var link = woof_current_page_link + "?swoof=1";
-    //+++
-    if (jQuery(woof_current_values).size() > 0) {
-        jQuery.each(woof_current_values, function (index, value) {
-            if (index == 'swoof') {
-                return;
-            }
-            //***
-            if (index != name) {
-                link = link + "&" + index + "=" + value;
-            }
-        });
+    //mode with Filter button
+    var values = [];
+    jQuery('.woof_mselect[name=' + name + '] option:selected').each(function (i, v) {
+        values.push(jQuery(this).val());
+    });
+    values = values.join(',');
+    if (values.length) {
+        woof_current_values[name] = values;
+    } else {
+        delete woof_current_values[name];
     }
-    if (slug != null) {
-        link = link + "&" + name + "=" + slug;
-    }
-     //sanitize link for '?swoof=1' only
-    var tmp_link = link.split('?swoof=1');
-    try {
-        if (tmp_link[1].length == 0) {
-            link = tmp_link[0];
-        }
-    } catch (e) {
 
+    if (woof_autosubmit) {
+        window.location = woof_get_submit_link();
     }
-    //+++
-    window.location = link;
 }
 
 function woof_init_mselects() {

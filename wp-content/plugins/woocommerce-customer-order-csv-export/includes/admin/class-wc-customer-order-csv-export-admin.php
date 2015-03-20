@@ -682,6 +682,13 @@ class WC_Customer_Order_CSV_Export_Admin {
 
 		$order_statuses = SV_WC_Plugin_Compatibility::wc_get_order_statuses();
 
+		// get the scheduled export time to display to user
+		if ( $scheduled_timestamp = wp_next_scheduled( 'wc_customer_order_csv_export_auto_export_orders' ) ) {
+			$scheduled_desc = sprintf( __( 'The next export is scheduled on <code>%s</code>', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ), get_date_from_gmt( date( 'Y-m-d H:i:s', $scheduled_timestamp ), wc_date_format() . ' ' . wc_time_format() ) );
+		} else {
+			$scheduled_desc = __( 'The export is not scheduled.', WC_Customer_Order_CSV_Export::TEXT_DOMAIN );
+		}
+
 		$settings = array(
 
 			'export' => array(
@@ -835,6 +842,7 @@ class WC_Customer_Order_CSV_Export_Admin {
 					'id'       => 'wc_customer_order_csv_export_auto_export_start_time',
 					'name'     => __( 'Export Start Time', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ),
 					'desc_tip' => __( 'Any new orders will start exporting at this time.', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ),
+					'desc'     => sprintf( 	__( 'Local time is <code>%s</code>.', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ), date_i18n( wc_time_format() ) ) . ' ' . $scheduled_desc,
 					'default'  => '',
 					'type'     => 'text',
 					'css'      => 'max-width: 100px;',
@@ -843,8 +851,9 @@ class WC_Customer_Order_CSV_Export_Admin {
 
 				array(
 					'id'       => 'wc_customer_order_csv_export_auto_export_interval',
-					'name'     => __( 'Export Interval (in minutes)', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ),
+					'name'     => __( 'Export Interval (in minutes)*', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ),
 					'desc_tip' => __( 'Any new orders will be exported on this schedule.', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ),
+					'desc'     => __( 'Required in order to schedule the automatic export.', WC_Customer_Order_CSV_Export::TEXT_DOMAIN ),
 					'default'  => '30',
 					'type'     => 'text',
 					'css'      => 'max-width: 50px;'

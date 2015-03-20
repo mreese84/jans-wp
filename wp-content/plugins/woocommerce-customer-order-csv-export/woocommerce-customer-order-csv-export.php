@@ -5,7 +5,7 @@
  * Description: Easily download customers & orders in CSV format and automatically export FTP or HTTP POST on a recurring schedule
  * Author: SkyVerge
  * Author URI: http://www.skyverge.com
- * Version: 3.9.0
+ * Version: 3.9.1
  * Text Domain: woocommerce-customer-order-csv-export
  * Domain Path: /i18n/languages/
  *
@@ -104,7 +104,7 @@ class WC_Customer_Order_CSV_Export extends SV_WC_Plugin {
 
 
 	/** plugin version number */
-	const VERSION = '3.9.0';
+	const VERSION = '3.9.1';
 
 	/** @var WC_Customer_Order_CSV_Export single instance of this plugin */
 	protected static $instance;

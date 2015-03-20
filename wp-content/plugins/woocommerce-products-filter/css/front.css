@@ -1,5 +1,5 @@
 .woof_container{
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .woof_container select{
@@ -23,7 +23,7 @@
 }
 
 .woof_childs_list{
-    margin: 5px 0 0 15px !important;
+    margin: 7px 0 0 15px !important;
 }
 
 /**********************/
@@ -39,3 +39,18 @@
 .woof_auto_show .woof_container_inner{
     padding-left: 5px;
 }
+
+.woo_submit_search_form_container{
+    overflow: hidden;
+    clear: both;
+    margin: 9px 0 15px 0;
+}
+
+li.woof_childs_list_li{
+    padding-bottom: 0 !important;
+}
+
+.woof_checkbox_instock_container{
+    margin-bottom: 9px;
+}
+
