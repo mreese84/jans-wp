@@ -1,8 +1,5 @@
 <?php if (!defined('ABSPATH')) die('No direct access allowed'); ?>
 <div class="woof">
-    <div class="woof_checkbox_instock_container">
-        <input type="checkbox" class="woof_checkbox_instock" id="woof_checkbox_instock" name="stock" value="0" <?php checked('instock', isset($_REQUEST['stock']) ? 'instock' : '', true) ?> />&nbsp;&nbsp;<label for="woof_checkbox_instock"><?php _e('In stock only', 'woocommerce-products-filter') ?></label><br />
-    </div>
     <?php
     global $wp_query;
     //print_r($wp_query);
@@ -144,18 +141,7 @@
     $woof_autosubmit = (int) get_option('woof_autosubmit');
     ?>
 
-    <div class="woo_submit_search_form_container">
 
-        <?php if (isset($_GET['swoof'])): global $woof_link; ?>
-            <input style="float: right;" type="button" class="button woo_reset_search_form" onclick="window.location = '<?php echo $woof_link ?>'" value="<?php _e('Reset', 'woocommerce-products-filter') ?>" />
-        <?php endif; ?>
-
-        <?php if (!$woof_autosubmit): ?>
-            <input style="float: left;" type="button" class="button woo_submit_search_form" onclick="" value="<?php _e('Filter', 'woocommerce-products-filter') ?>" />
-        <?php endif; ?>
-
-    </div>
 
 
 </div>
-

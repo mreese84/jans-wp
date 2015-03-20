@@ -1336,6 +1336,11 @@ footer {
   .woocommerce ul.product_list_widget li:hover {
     box-shadow: -0.2em 0 0 0 #dde2d8; }
 
+.predictive_results .rs_name {
+  color: #be7773; }
+.predictive_results .ac_over {
+  background-color: #aab79d; }
+
 @media (max-width: 767px) {
   .col-2 {
     display: -webkit-box;
