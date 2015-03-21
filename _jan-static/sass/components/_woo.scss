@@ -21,6 +21,12 @@
       img {
         padding: 5px;
         border: 1px solid lighten($default-black,65%);
+        background-color: #fff;
+        @include transition(background-color .3s ease-in-out);
+
+        &:hover {
+          background-color: darken($light-green,10%);
+        }
       }
 
       .price {

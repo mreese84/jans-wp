@@ -1297,7 +1297,13 @@ footer {
 
 .products .product a img {
   padding: 5px;
-  border: 1px solid #d8d8d8; }
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out; }
+  .products .product a img:hover {
+    background-color: #dde2d8; }
 .products .product a .price {
   margin: 0; }
 .products .product .add_to_cart_button {
