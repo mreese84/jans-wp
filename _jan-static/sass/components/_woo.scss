@@ -115,3 +115,61 @@
     padding: .54em;
   }
 }
+
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+  padding: 1em 2em 1em 3.5em !important;
+  margin: 0 0 2em !important;
+  position: relative;
+  background-color: $light-green;
+  border-top: 3px solid $olive-green;
+  list-style: none outside !important;
+  @include clearfix();
+  width: auto;
+
+  &:before {
+    font-family: "WooCommerce";
+    content: "\e028";
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    left: 1.5em;
+  }
+
+  .button {
+    float: right;
+  }
+
+  li {
+    list-style: none outside !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
+.woocommerce-message {
+  border-top-color: #8fae1b;
+
+  &:before {
+    content: "\e015";
+    color: #8fae1b;
+  }
+}
+
+.woocommerce-info {
+  //border-top-color: $primary;
+
+  &:before {
+    color: $olive-green;
+  }
+}
+
+.woocommerce-error {
+  border-top-color: $red;
+
+  &:before {
+    content: "\e016";
+    color: $red;
+  }
+}
