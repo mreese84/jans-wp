@@ -1402,6 +1402,12 @@ footer {
     content: "\e016";
     color: #be7773; }
 
+.related .products .product {
+  max-width: 29%; }
+  @media (max-width: 767px) {
+    .related .products .product {
+      max-width: 100%; } }
+
 @media (max-width: 767px) {
   .woo-product {
     display: -webkit-box;

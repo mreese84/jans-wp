@@ -171,3 +171,17 @@
     color: $red;
   }
 }
+
+.related {
+
+  .products {
+
+    .product {
+      max-width: 29%;
+
+      @include phone {
+        max-width: 100%;
+      }
+    }
+  }
+}
