@@ -67,14 +67,18 @@ p.demo_store {
     text-align: center;
     line-height: 1;
     border-radius: 100%;
-    color: red !important;
+    color: $red !important;
     text-decoration: none;
     font-weight: 700;
     border: 0;
+    background: #fff;
+    @include transform(none);
+    @include transition-property(all);
+    @include transition-duration(.25s);
+    @include transition-timing-function(ease-in-out);
 
     &:hover {
-      color: #fff !important;
-      background: red;
+      @include transform(rotateZ(90deg));
     }
   }
 

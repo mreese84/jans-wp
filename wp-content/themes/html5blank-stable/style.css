@@ -1347,6 +1347,10 @@ footer {
 .predictive_results .ac_over {
   background-color: #aab79d; }
 
+.coupon #coupon_code {
+  width: 10em;
+  padding: .54em; }
+
 @media (max-width: 767px) {
   .col-2 {
     display: -webkit-box;

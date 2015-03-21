@@ -227,13 +227,31 @@ p.demo_store {
     text-align: center;
     line-height: 1;
     border-radius: 100%;
-    color: red !important;
+    color: #be7773 !important;
     text-decoration: none;
     font-weight: 700;
-    border: 0; }
+    border: 0;
+    background: #fff;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out; }
     .woocommerce a.remove:hover {
-      color: #fff !important;
-      background: red; }
+      -webkit-transform: rotateZ(90deg);
+      -moz-transform: rotateZ(90deg);
+      -ms-transform: rotateZ(90deg);
+      -o-transform: rotateZ(90deg);
+      transform: rotateZ(90deg); }
   .woocommerce .woocommerce-message,
   .woocommerce .woocommerce-error,
   .woocommerce .woocommerce-info {
