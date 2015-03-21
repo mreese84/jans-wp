@@ -49,7 +49,7 @@
 
   }
 
-  @include phone{
+  @include phone {
 
     article {
       @include span-columns(12);

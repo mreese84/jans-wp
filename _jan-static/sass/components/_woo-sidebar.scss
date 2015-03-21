@@ -1,6 +1,6 @@
-@include phone {
+.woo-product {
 
-  .col-2 {
+  @include phone {
     display: -webkit-box;
     display: -moz-box;
     display: box;
