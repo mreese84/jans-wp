@@ -1294,6 +1294,8 @@ footer {
 
 .single-product .woocommerce-breadcrumb {
   padding-top: 3em; }
+.single-product .product_title {
+  font-size: 1.3em; }
 
 .products .product a img {
   padding: 5px;
