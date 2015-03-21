@@ -1,4 +1,4 @@
-.woo-product {
+.woocommerce {
 
   @include phone {
     display: -webkit-box;
@@ -8,29 +8,29 @@
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
     box-orient: vertical;
-  }
 
-  article {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    box-ordinal-group: 2;
-  }
-
-  .sidebar {
-    -webkit-box-ordinal-group: 1;
-    -moz-box-ordinal-group: 1;
-    box-ordinal-group: 1;
-    position: relative;
-    z-index: 1000;
-    margin: 0;
-
-    .dropdown_product_cat {
-      margin: 0;
+    article {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      box-ordinal-group: 2;
     }
-  }
-  .widget_products_predictive_search,
-  .widget_price_filter,
-  .widget_top_rated_products {
-    display: none;
+
+    .sidebar {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      box-ordinal-group: 1;
+      position: relative;
+      z-index: 1000;
+      margin: 0;
+
+      .dropdown_product_cat {
+        margin: 0;
+      }
+    }
+    .widget_products_predictive_search,
+    .widget_price_filter,
+    .widget_top_rated_products {
+      display: none;
+    }
   }
 }

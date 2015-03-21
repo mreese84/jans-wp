@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPBizPlugins Custom Admin Help Boxes\n"
+"POT-Creation-Date: 2014-05-21 17:32+0100\n"
+"PO-Revision-Date: 2014-05-21 17:32+0100\n"
+"Last-Translator: Gabriel Nordeborn <gabriel@wpbizplugins.com>\n"
+"Language-Team: WPBizPlugins <gabriel@wpbizplugins.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _x;_e;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: inc\n"
+
+#: inc/redux-config.php:110
+msgid "Section via hook"
+msgstr ""
+
+#: inc/redux-config.php:111
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: inc/redux-config.php:159
+msgid "Main configuration"
+msgstr ""
+
+#: inc/redux-config.php:160
+msgid ""
+"Configure the custom admin help boxes. Please contact <a href=\"mailto:"
+"support@wpbizplugins.com\">support@wpbizplugins.com</a> if you need further "
+"assistance."
+msgstr ""
+
+#: inc/redux-config.php:174
+msgid "Your company logo"
+msgstr ""
+
+#: inc/redux-config.php:175
+msgid ""
+"Upload your company logo to here if you want it to be displayed in every "
+"help box. Helps with branding and looks professional."
+msgstr ""
+
+#: inc/redux-config.php:176
+msgid "Will be displayed in every help box if set."
+msgstr ""
+
+#: inc/redux-config.php:182
+msgid "Extra contact options"
+msgstr ""
+
+#: inc/redux-config.php:184
+msgid ""
+"The options below will let you add extra contact details for your support. "
+"The contact details will be included at the bottom of each help box."
+msgstr ""
+
+#: inc/redux-config.php:190
+msgid "Text for support section"
+msgstr ""
+
+#: inc/redux-config.php:191
+msgid "This will be displayed right above the contact buttons set below."
+msgstr ""
+
+#: inc/redux-config.php:192
+msgid "Default:"
+msgstr ""
+
+#: inc/redux-config.php:199
+msgid "Support e-mail"
+msgstr ""
+
+#: inc/redux-config.php:200
+msgid "Where do you want people to e-mail if they have issues?"
+msgstr ""
+
+#: inc/redux-config.php:201
+msgid ""
+"This will be put together with other contact details you specify below in "
+"each help box."
+msgstr ""
+
+#: inc/redux-config.php:203
+msgid "Invalid e-mail address, try again."
+msgstr ""
+
+#: inc/redux-config.php:209
+msgid "Support phone number"
+msgstr ""
+
+#: inc/redux-config.php:210
+msgid "Where do you want people to call if they have issues?"
+msgstr ""
+
+#: inc/redux-config.php:211
+msgid ""
+"This will be put together with other contact details you specify in each "
+"help box."
+msgstr ""
+
+#: inc/redux-config.php:213
+msgid "Number contains invalid characters, please try again."
+msgstr ""
+
+#: inc/redux-config.php:219
+msgid "Support URL"
+msgstr ""
+
+#: inc/redux-config.php:220
+msgid "Do you have an external support page?"
+msgstr ""
+
+#: inc/redux-config.php:221
+msgid ""
+"If you have an external support page you want linked to in each help box, "
+"put the URL to that page here. This will be put together with other contact "
+"details you specify in each help box."
+msgstr ""
+
+#: inc/redux-config.php:223
+msgid "Invalid URL, try again."
+msgstr ""
+
+#: inc/redux-config.php:231
+msgid "Warning"
+msgstr ""
+
+#: inc/redux-config.php:232
+msgid "Only edit the custom CSS if you know what you are doing."
+msgstr ""
+
+#: inc/redux-config.php:238
+msgid "Custom CSS Code"
+msgstr ""
+
+#: inc/redux-config.php:239
+msgid "Put your custom CSS code here."
+msgstr ""
+
+#: inc/redux-config.php:243
+msgid "Available CSS selectors"
+msgstr ""
+
+#: inc/redux-config.php:244
+msgid "The inner container for the metabox itself."
+msgstr ""
+
+#: inc/redux-config.php:245
+msgid "The company logo <img>."
+msgstr ""
+
+#: inc/redux-config.php:246
+msgid "The text/content in the metabox that is editable."
+msgstr ""
+
+#: inc/redux-config.php:247
+msgid "The bottom support section with buttons for e-mail, phone etc."
+msgstr ""
+
+#: inc/redux-config.php:248
+msgid "The container holding the buttons in the support section."
+msgstr ""
+
+#: inc/redux-config.php:258
+msgid "Import / Export"
+msgstr ""
+
+#: inc/redux-config.php:259
+msgid "Import and Export the menu settings from file, text or URL."
+msgstr ""
+
+#: inc/redux-config.php:277
+msgid "Documentation"
+msgstr ""
+
+#: inc/redux-config.php:320
+msgid "Configuration"
+msgstr ""
+
+#: inc/redux-config.php:321
+msgid "Custom Admin Help Boxes Options"
+msgstr ""
+
+#: inc/redux-config.php:401
+msgid ""
+"Welcome to the Custom Admin Help Boxes configuration. Configure everything "
+"needed for display of the boxes here."
+msgstr ""
+
+#: inc/custom-posttypes.php:38
+msgid "Custom help boxes"
+msgstr ""
+
+#: inc/custom-posttypes.php:39
+msgid "Custom help box"
+msgstr ""
+
+#: inc/custom-posttypes.php:40 inc/custom-posttypes.php:41
+msgid "Add new custom help box"
+msgstr ""
+
+#: inc/custom-posttypes.php:42
+msgid "Edit custom help box"
+msgstr ""
+
+#: inc/custom-posttypes.php:43
+msgid "New custom help box"
+msgstr ""
+
+#: inc/custom-posttypes.php:44
+msgid "All custom help boxes"
+msgstr ""
+
+#: inc/custom-posttypes.php:45
+msgid "See custom help boxes"
+msgstr ""
+
+#: inc/custom-posttypes.php:46
+msgid "Search custom help boxes"
+msgstr ""
+
+#: inc/custom-posttypes.php:47
+msgid "No custom help box found"
+msgstr ""
+
+#: inc/custom-posttypes.php:48
+msgid "No custom help boxes found in the trash"
+msgstr ""
+
+#: inc/custom-posttypes.php:50
+msgid "Custom Help Boxes"
+msgstr ""
+
+#: inc/custom-posttypes.php:58
+msgid "Custom help boxes for the admin section."
+msgstr ""
+
+#: inc/custom-posttypes.php:87 inc/custom-posttypes.php:88
+#: inc/custom-posttypes.php:89 inc/custom-posttypes.php:90
+msgid "Custom help box updated."
+msgstr ""
+
+#: inc/custom-posttypes.php:93 inc/custom-posttypes.php:95
+msgid "Custom help box added."
+msgstr ""
+
+#: inc/custom-posttypes.php:94
+msgid "Custom help box saved."
+msgstr ""
+
+#: inc/custom-posttypes.php:99
+msgid "Draft of custom help box saved."
+msgstr ""
+
+#: inc/custom-posttypes.php:151
+msgid "Custom Admin Help Boxes"
+msgstr ""
+
+#: inc/custom-posttypes.php:155
+msgid "Help box content"
+msgstr ""
+
+#: inc/custom-posttypes.php:158
+msgid ""
+"Add instructions and other help text and elements in this box. You can add "
+"images and whatever else you want and need in here."
+msgstr ""
+
+#: inc/custom-posttypes.php:165
+msgid "Popup"
+msgstr ""
+
+#: inc/custom-posttypes.php:168
+msgid ""
+"Select this if you want to display your content in a popup. If so, a button "
+"will be displayed in your help box, urging your users to click the button to "
+"get help. Very good for longer and more comprehensive help content."
+msgstr ""
+
+#: inc/custom-posttypes.php:168
+msgid "This does not look very good when used on the Dashboard."
+msgstr ""
+
+#: inc/custom-posttypes.php:175
+msgid "Button text"
+msgstr ""
+
+#: inc/custom-posttypes.php:179
+msgid "What do you want the popup button to say?"
+msgstr ""
+
+#: inc/custom-posttypes.php:195
+msgid "Text before button"
+msgstr ""
+
+#: inc/custom-posttypes.php:199
+msgid "The text displayed before the button. Make this brief."
+msgstr ""
+
+#: inc/custom-posttypes.php:215
+msgid "Where to display this help box"
+msgstr ""
+
+#: inc/custom-posttypes.php:218
+msgid ""
+"Select where you want this help box to show. Choose from the various post "
+"types in your WordPress install, as well as the Dashboard."
+msgstr ""
+
+#: inc/custom-posttypes.php:227
+msgid "Display placement"
+msgstr ""
+
+#: inc/custom-posttypes.php:230
+msgid ""
+"Choose in what place you want this help box to be displayed. Choosing \"In "
+"the middle\" will place the help box close to the middle of the screen. "
+"Choosing \"On the side\" will place it on the right hand side."
+msgstr ""
+
+#: inc/custom-posttypes.php:241
+msgid "Display priority"
+msgstr ""
+
+#: inc/custom-posttypes.php:256
+msgid "Show extra information in help box"
+msgstr ""
+
+#: inc/custom-posttypes.php:259
+msgid ""
+"De-select this if you do not want to display extras like your e-mail, phone "
+"number and more in this help box."
+msgstr ""
+
+#: inc/custom-posttypes.php:266
+msgid "Bottom message"
+msgstr ""
+
+#: inc/custom-posttypes.php:269
+msgid "All done!"
+msgstr ""
+
+#: inc/custom-posttypes.php:327
+msgid ""
+"Fill in the fields and select your options on this page. Then simply press "
+"publish and you have a new, fresh custom admin help box!"
+msgstr ""
+
+#: inc/custom-posttypes.php:329
+msgid "Title"
+msgstr ""
+
+#: inc/custom-posttypes.php:329
+msgid "Enter the title of your custom help box."
+msgstr ""
